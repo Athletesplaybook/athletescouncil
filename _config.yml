@@ -1,0 +1,51 @@
+# Site settings
+title: The Athletes Council
+email: contact@athletecouncil.com
+description: >
+  Welcome to the home of The Athletes Council.
+baseurl: ""
+url: "https://www.athletecouncil.com" # the base hostname & protocol for your site
+image_path: '/assets/img'
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.json', 'README.md', 'Gemfile', 'build.sh']
+
+# Enabling gems
+gems: [
+"jekyll-contentful"
+]
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values: 
+      layout: "post"
+      permalink: /blog/:title
+  -
+    scope:
+      path: "/category"
+    values:
+      permalink: /blog/category/:title
+      layout: "category"
+
+
+contentful:
+  preview: No 
+  production_access_token: TAC_CONTENTFUL_ACCESS_TOKEN
+  preview_access_token: TAC_PREVIEW_TOKEN
+  space: TAC_CONTENTFUL_SPACE_ID
+  content_types:
+#   - "initiatives"
+  spaces:
+    - proddata: # Jekyll _data folder identifier - Required
+        space: TAC_CONTENTFUL_SPACE_ID        # Required
+        access_token: TAC_CONTENTFUL_ACCESS_TOKEN # Required
+        cda_query:                 # Optional
+          include: 2
+          limit: 100
+        content_types:             # Optional
+#          cat: boardMember
+ 
