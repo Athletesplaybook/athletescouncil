@@ -1,0 +1,25 @@
+---
+story:
+- sys:
+    id: 1dpW9jvTUY0GsguW64wYEu
+  title: First Story
+  subtitle: Subtitle
+  isTopStory: true
+  heroImage:
+    title: placeholder31
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/4c40QxPEAg6eigQM4kEYSm/8ae972d719ba7ae2fc73c63f5bdbb35e/placeholder31.png
+  contentAboveNewsletterLink: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolo ar in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  contentBelowNewsletter: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolo ar in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

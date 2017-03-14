@@ -24,28 +24,21 @@ defaults:
     values: 
       layout: "post"
       permalink: /blog/:title
-  -
-    scope:
-      path: "/category"
-    values:
-      permalink: /blog/category/:title
-      layout: "category"
-
 
 contentful:
   preview: No 
-  production_access_token: TAC_CONTENTFUL_ACCESS_TOKEN
+  production_access_token: 72540f74ced35d002b0589a2b91705f71c93f19fc9666ed53dae5563fe68dddd
   preview_access_token: TAC_PREVIEW_TOKEN
   space: TAC_CONTENTFUL_SPACE_ID
   content_types:
-#   - "initiatives"
+   - "story"
   spaces:
     - proddata: # Jekyll _data folder identifier - Required
         space: TAC_CONTENTFUL_SPACE_ID        # Required
-        access_token: TAC_CONTENTFUL_ACCESS_TOKEN # Required
+        access_token: 72540f74ced35d002b0589a2b91705f71c93f19fc9666ed53dae5563fe68dddd # Required
         cda_query:                 # Optional
           include: 2
           limit: 100
         content_types:             # Optional
-#          cat: boardMember
+         cat: story
  
