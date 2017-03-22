@@ -1,6 +1,9 @@
 .sigle-story-content {
 	.form-container {
 		background-color: $gold;
+		.button.red {
+			font-size: 12px;
+		}
 	}
 	.story-content {
 		margin: 1em 0 4em 0;
@@ -54,3 +57,8 @@
 	}
 }
 
+header .story {
+	h2, h6 {
+		text-shadow: 1px 1px 5px #fff;
+	}
+}

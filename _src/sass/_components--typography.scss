@@ -81,9 +81,23 @@ p {
 	}
 }
 
-.story-content p {
-	font-size: 16px;
-	line-height: 1.5;
+.story-content {
+	p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	blockquote {
+		padding: 0;
+		margin:0;
+		p {
+			font-size: 28px;
+    		font-style: italic;		
+    		&:before, &:after {
+    			content: "\"";
+    		}
+		}
+	}
+	
 }
 
 a {

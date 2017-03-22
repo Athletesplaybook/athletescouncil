@@ -7,6 +7,6 @@ $(document).ready(function(){
 	});
 	$('.menuIcon').click(function(e) {
 		e.preventDefault();
-		$('.menu-content').slideToggle();
+		$('.menu-content').slideToggle(200);
 	});
 })

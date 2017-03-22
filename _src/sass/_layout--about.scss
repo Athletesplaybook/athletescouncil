@@ -42,6 +42,9 @@
 		margin-top: 0;
     	margin-bottom: 2em;
 	}
+	img {
+		max-width: 100%;
+	}
 	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
 		.col-4-12 img {
 			margin: 0 auto;
@@ -86,4 +89,8 @@
 			padding-left: 0;
 		}
 	}
+}
+
+.leader {
+	margin-bottom:30px;
 }

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header>
-    <section class="clearfix full-img aligner" style="background-image: url('{{page.contentful_fields.heroImage.file.url}}');">
+    <section class="clearfix full-img aligner story" style="background-image: url('{{page.contentful_fields.heroImage.file.url}}');">
         <div class="grid">
         <div class="col-1-2 center center-text aligner-item">
             <h2>{{page.contentful_fields.title}}</h2>
@@ -54,8 +54,6 @@ layout: default
                 </div>
             </div>
             <div class="col-8-12 no-padding story-content">
-                <h5 class="italic center-text">“Growing up in Brooklyn, we played a lot of ball”</h5>
-                <p class="big center-text subtitle"><strong>Lenny Wilkins</strong> says</p>
                 <p class="big">{{page.contentful_fields.contentAboveNewsletterLink | markdownify }}</p>
 
                 <div class="subscribe-form">
@@ -80,7 +78,7 @@ layout: default
         </div>
         <div class="grid similar-posts">
             <div class="col-10-12 center storiesCarousel">
-                {% for story in site.data.contentful.spaces.proddata.story %}
+                {% for story in site.data.contentful.spaces.proddata.story limit: 3 %}
                     {% if story.title != page.contentful_fields.title %}
                         <a href="/story/{{story.title | slugify }}">
                         <div class="col-1-3">
