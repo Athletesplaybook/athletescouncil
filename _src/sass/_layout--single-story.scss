@@ -7,6 +7,9 @@
 		h5 {
 			margin-bottom: 0;
 		}
+		img {
+			max-width: 100%;
+		}
 		.subtitle {
 			margin-bottom: 3em;
 		}	
@@ -31,7 +34,7 @@
 			box-shadow: -1px 5px 13px $gray-light;
 			background-color: $white;
 	    	max-width: 255px;
-	    	height: 320px;
+	    	height: 400px;
 	    	margin-right: 35px;
 	    	margin-bottom: 1em;
 	    	padding-right: 0;
@@ -43,6 +46,11 @@
 	    		height: 50%;
 	    		object-fit: cover;
 	    	}
+
 		}
+		a {
+	    		color: #000;
+	    }
 	}
 }
+

@@ -1,8 +1,47 @@
-<footer class="site-footer">
- 
+
+<footer class="bg-black">
+    <div class="grid aligner">
+        <div class="col-1-2 creds">
+            <img src="/assets/img/logo.png">
+            <ul>
+                <li><p class="small color-white">&#64;2017 The Athletes Council</p></li>
+                <li><p class="small color-white">Privacy</p></li>
+                <li><p class="small color-white">Terms</p></li>
+            </ul>
+        </div>
+        <div class="col-1-2">
+            <ul class="social-icons push-right">
+                <li><img class="push-right" src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
+                <li><img class="push-right" src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
+                <li><img class="push-right" src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
+                <li><img class="push-right" src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
+            </ul>
+        </div>
+    </div>
 </footer>
 
 
+
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/app.js"></script>
+<script src="/assets/slick/slick.min.js"></script>
 <script src="/assets/js/lib/main.js"></script>
-
-
+<script type="text/javascript">
+    $('.topStories').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      centerMode: false,
+      arrows: true,
+      dots: true
+    });
+   $('.sliderQuotes').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: false,
+        arrows: true,
+        dots: false
+   });
+</script>

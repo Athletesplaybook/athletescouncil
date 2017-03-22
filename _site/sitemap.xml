@@ -4,9 +4,24 @@
   
     
     <url>
+      <loc>https://www.athletecouncil.com/about/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>https://www.athletecouncil.com/feed.xml</loc>
       
-        <lastmod>2017-03-22T12:20:33-07:00</lastmod>
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -21,7 +36,7 @@
     <url>
       <loc>https://www.athletecouncil.com/</loc>
       
-        <lastmod>2017-03-22T12:20:33-07:00</lastmod>
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -32,5 +47,95 @@
     </url>
     
   
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/small-kid-from-big-apple-wins-it-all/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/alabama-home-to-high-school-heisman-2017-winner/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/fostering-competitive-spirit/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/mighty-ruthie-still-leaping-life-s-fences/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/opinion-nfl-sends-ominous-message-to-kaepernick-student-athletes/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/underdogs-unite/</loc>
+      
+        <lastmod>2017-03-22T14:26:04-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
     
   

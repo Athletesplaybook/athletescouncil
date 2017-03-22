@@ -481,6 +481,10 @@ p {
   p.caps {
     font-size: 14px; }
 
+.story-content p {
+  font-size: 16px;
+  line-height: 1.5; }
+
 a {
   text-decoration: none;
   color: #CE2724; }
@@ -804,6 +808,8 @@ footer {
   margin: 1em 0 4em 0; }
   .sigle-story-content .story-content h5 {
     margin-bottom: 0; }
+  .sigle-story-content .story-content img {
+    max-width: 100%; }
   .sigle-story-content .story-content .subtitle {
     margin-bottom: 3em; }
 .sigle-story-content .share-btns {
@@ -822,7 +828,7 @@ footer {
   box-shadow: -1px 5px 13px #979797;
   background-color: #ffffff;
   max-width: 255px;
-  height: 320px;
+  height: 400px;
   margin-right: 35px;
   margin-bottom: 1em;
   padding-right: 0; }
@@ -832,6 +838,8 @@ footer {
     width: 100%;
     height: 50%;
     object-fit: cover; }
+.sigle-story-content .similar-posts a {
+  color: #000; }
 
 .play-btn {
   width: 80px;
