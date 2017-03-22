@@ -1,0 +1,29 @@
+// Colors
+$beige      : #F5F3EC;
+$gold       : #C3AC6E;
+$red        : #CE2724;
+$gray       : #4A4A4A;
+$gray-light : #979797;
+$black      : #000000;
+$white      : #ffffff;
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,700,900');
+
+
+// Font Stacks
+$stack-opensans        : 'Open Sans', sans-serif;
+$stack-titillium        : 'Titillium Web', sans-serif;
+
+// Mixins
+@mixin transition($length) {
+    transition: all $length ease-out;
+}
+
+// Media Query Breakpoints
+ $brk-narrow    : '(max-width: 767px)';
+ $brk-tablet-min: '(min-width: 768px)';
+ $brk-wide      : '(max-width: 1023px)';
+ $brk-wide-min  : '(min-width: 1024px)';
+  

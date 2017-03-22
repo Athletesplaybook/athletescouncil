@@ -1,0 +1,89 @@
+.play-btn {
+	width: 80px;
+	position: absolute;
+    top: 46%;
+    z-index: 99;
+    left: 46%;
+    @media screen and #{$brk-narrow} {
+    	display: none;
+    }
+}
+.movie-content-box {
+	position: relative;
+}
+.author-thumb {
+	width: 120px;
+	height: 120px;
+	background-size: contain;
+	@media screen and #{$brk-wide} {
+		margin: 0 auto;
+		float: none !important;
+	}
+}
+.headshots-all {
+	.col-1-4 {
+		margin-bottom: 2em;
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+	@media screen and #{$brk-wide} {
+		.col-1-4 {
+			margin-bottom: 0;
+			padding: 20px;
+		}
+		
+	}
+	
+}
+.leads-all {
+	h3 {
+		margin-top: 0;
+    	margin-bottom: 2em;
+	}
+	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+		.col-4-12 img {
+			margin: 0 auto;
+		}
+	}
+	@media screen and #{$brk-wide} {
+		.grid {
+			padding: 20px;
+		}
+		.col-4-12 img {
+			float: none !important;
+    		display: block;
+		}
+	}
+}
+.subscribe-cta {
+	padding: 2em;
+    border: 1px solid #CE2724;
+    border-radius: 12px;
+    @media screen and #{$brk-narrow} {
+    	float: none !important;
+    }
+}
+.subscribe-box {
+	ul li {
+		img {
+			width: 50px;
+	    	display: inline-block;
+	    	vertical-align: middle;
+	    	float: left;
+		}
+		p {
+			display: inline;
+			vertical-align: middle;
+		}
+		@media screen and #{$brk-narrow} {
+			margin: 15px 15px 15px 0;
+		}
+	}
+	@media screen and #{$brk-narrow} {
+		ul {
+			padding-left: 0;
+		}
+	}
+}

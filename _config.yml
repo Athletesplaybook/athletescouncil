@@ -14,7 +14,7 @@ exclude: ['_sass', '_src', '_grunt', 'node_modules', 'Gruntfile.js', 'package.js
 
 # Enabling gems
 gems: [
-"jekyll-contentful"
+#"jekyll-contentful"
 ]
 
 defaults:
