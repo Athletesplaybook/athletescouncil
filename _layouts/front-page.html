@@ -56,88 +56,7 @@ layout: default
 <section class="spacing-copy">
     <div class="grid news-container">
         <div class="col-4-12">
-            <div class="latest-events">
-                <p class="t-font caps bold center-text">Click here for the <span class="color-red caps bold">latest events</span> in your area</p>
-            </div>
-            <div id="accordeon">
-                <h6 class="bg-black color-white center-text">EXPLORE TOPICS</h6>
-                <ul>
-                    <li class="active">
-                        <h6>LIFE<span class="icon-arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" preserveAspectRatio="xMaxYMin meet" viewBox="0 0 404.308 404.309" style="enable-background:new 0 0 404.308 404.309;" xml:space="preserve" ><g><path d="M0,101.08h404.308L202.151,303.229L0,101.08z" fill="#ce2724"/></g>
-                            </svg>
-                        </span>
-                        </h6>
-                        <ul>
-                            <li><a href="#"><p>Family &amp; Friends</p></a></li>
-                            <li><a href="#"><p>Relationships</p></a></li>
-                            <li><a href="#"><p>Integrity &amp; Leadership</p></a></li>
-                            <li><a href="#"><p>Community Service</p></a></li>
-                            <li><a href="#"><p>Just for fun</p></a></li>
-                        </ul>
-                    </li>
-                    <!-- we will keep this LI open by default -->
-                    <li>
-                        <h6>SPORTS<span class="icon-arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" preserveAspectRatio="xMaxYMin meet" viewBox="0 0 404.308 404.309" style="enable-background:new 0 0 404.308 404.309;" xml:space="preserve" ><g><path d="M0,101.08h404.308L202.151,303.229L0,101.08z" fill="#ce2724"/></g>
-                            </svg>
-                        </span></h6>
-                        <ul>
-                            <li><a href="#"><p>Football</p></a></li>
-                            <li><a href="#"><p>Baseball</p></a></li>
-                            <li><a href="#"><p>Soccer</p></a></li>
-                            <li><a href="#"><p>Running</p></a></li>
-                            <li><a href="#"><p>Tennis</p></a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h6>EDUCATION<span class="icon-arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" preserveAspectRatio="xMaxYMin meet" viewBox="0 0 404.308 404.309" style="enable-background:new 0 0 404.308 404.309;" xml:space="preserve" ><g><path d="M0,101.08h404.308L202.151,303.229L0,101.08z" fill="#ce2724"/></g>
-                            </svg>
-                        </span></h6>
-                        <ul>
-                            <li><a href="#"><p>How to get better at baseball webinar</p></a></li>
-                            <li><a href="#"><p>Athlete course</p></a></li>
-                            <li><a href="#"><p>Favorite books from athletes</p></a></li>
-                            <li><a href="#"><p>Watch videos</p></a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h6>WEALTH<span class="icon-arrow">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" preserveAspectRatio="xMaxYMin meet" viewBox="0 0 404.308 404.309" style="enable-background:new 0 0 404.308 404.309;" xml:space="preserve" ><g><path d="M0,101.08h404.308L202.151,303.229L0,101.08z" fill="#ce2724"/></g>
-                            </svg>
-                        </span></h6>
-                        <ul>
-                            <li><a href="#"><p>Global favorites</p></a></li>
-                            <li><a href="#"><p>Priceless advice</p></a></li>
-                            <li><a href="#"><p>News in wealth</p></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="sidebar-subscribe bg-black">
-                <form action="">
-                    <div class="form-container">
-                        <h4 class="center-text no-margin color-gold">Subscribe to our mailing list</h4>
-                        <input type="email" placeholder="example@mail.com" name="email" required>
-                        <p class="button gold"><a href="">Subscribe</a></p>
-                    </div>
-                </form>
-                <p class="join-club color-white center-text">Join The Athletes Council
-                <span>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 404.308 404.309" style="enable-background:new 0 0 404.308 404.309;" xml:space="preserve">
-                <g>
-                <path d="M0,101.08h404.308L202.151,303.229L0,101.08z" fill="#fff"/>
-                </g>
-                </svg><span>
-                </p>
-                <ul class="social-icons">
-                    <li><img src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
-                    <li><img src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
-                    <li><img src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
-                    <li><img src="https://placeholdit.imgix.net/~text?txtsize=33&=25&h=25"></li>
-                </ul>
-            </div>
+            {% include sidebar.html %}
         </div>
         <div class="col-8-12 story-bar">
         {% for story in site.data.contentful.spaces.proddata.story %}
@@ -145,7 +64,7 @@ layout: default
                 <div class="col-1-2 story-item no-padding">
                     <div class="each-news" style="background-image: url('{{story.heroImage.url}}');">
                         <div class="caption">
-                            <p class="button tag"><a href="">{{story.category}}</a></p>
+                            {%if story.category%}<p class="button tag"><a href="">{{ story.category }}</a></p>{%endif%}
                             <h4>{{story.title}}</h4>
                         </div>
                     </div>
