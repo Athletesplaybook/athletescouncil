@@ -751,7 +751,7 @@ footer {
 
 .each-quote img {
   margin: 0 auto;
-  transform: translateY(20%); }
+  max-width: 300px; }
 
 .playbook-container h4 {
   margin: 10px 0;

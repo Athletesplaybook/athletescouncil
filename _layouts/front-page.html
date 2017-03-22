@@ -81,86 +81,54 @@ layout: default
 <section class="bg-beige playbook-container spacing-copy">
     <div class="grid">
         <h3 class="center-text no-margin-top">From the Playbook</h3>
-        <div class="col-1-2">
-            <div class="playbook-img" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150');"></div>
-        </div>
-        <div class="col-1-2">
-            <p class="caps no-margin-top">LESSONS LEARNED</p>
-            <h3 class="bold">Smashing through the glass</h3>
-            <p>Tell Anna Stone she can’t do it. Then sit back and watch her excel. From football to finances, she is redefining what it means to be a modern woman.</p>
-        </div>
+        {% for playbook in site.data.contentful.spaces.proddata.playbook %}
+            {% if playbook.isFeatured == true %}
+
+                <div class="col-1-2">
+                    <div class="playbook-img" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150');"></div>
+                </div>
+                <div class="col-1-2">
+                    <p class="caps no-margin-top">LESSONS LEARNED</p>
+                    <h3 class="bold">Smashing through the glass</h3>
+                    <p>Tell Anna Stone she can’t do it. Then sit back and watch her excel. From football to finances, she is redefining what it means to be a modern woman.</p>
+                </div>
+
+            {% endif %}
+        {% endfor %}
     </div>
     <div class="grid">
+            {% for playbook in site.data.contentful.spaces.proddata.playbook %}
+            {% if playbook.isFeatured == false %}
+
         <div class="col-1-4">
-            <div class="playbook-img" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150');"></div>
+            <div class="playbook-img" style="background-image: url('{{playbook.image.url}}');"></div>
         </div>
         <div class="col-1-4">
-            <p class="caps no-margin-top">LESSONS LEARNED</p>
-            <h4>What my sons have taught me</h4>
-            <p class="small">Bill Watson</p>
+            <p class="caps no-margin-top">{{playbook.category}}</p>
+            <h4>{{playbook.title}}</h4>
+            <p class="small">{{playbook.author}}</p>
         </div>
-        <div class="col-1-4">
-            <div class="playbook-img" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150');"></div>
-        </div>
-        <div class="col-1-4">
-            <p class="caps no-margin-top">council voices</p>
-            <h4>Innovation comes to urban classrooms</h4>
-            <p class="small">Mike Green</p>
-        </div>
-    </div>
-    <div class="grid">
-        <div class="col-1-4">
-            <div class="playbook-img" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150');"></div>
-        </div>
-        <div class="col-1-4">
-            <p class="caps no-margin-top">council advice</p>
-            <h4>Surprise! I use those business classes</h4>
-            <p class="small">Jack Thompson</p>
-        </div>
-        <div class="col-1-4">
-            <div class="playbook-img" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150');"></div>
-        </div>
-        <div class="col-1-4">
-            <p class="caps no-margin-top">LESSONS LEARNED</p>
-            <h4>When I’m 65…</h4>
-            <p class="small">Donald “Slick” Watts</p>
-        </div>
+        {%endif%}
+        {% endfor %}
+        <div style="clear:both;"></div>
     </div>
     <div class="center-text"><p class="button red"><a href="">Start your own playbook</a></p></div>
 </section>
 <section class="spacing-copy">
 <div class="grid">
     <div class="sliderQuotes col-11-12 center no-padding">
-        <div class="each-quote">
-            <div class="col-1-2">
-                <h5 class="italic center-text">“I encourage all student-athletes to develop themselves fully in the classroom and in the respective sport… I am thankful for all the places basketball has taken me and beyond the court.“</h5>
-                <p class="caps bold center-text">Caroline Moose</p>
-                <p class="center-text">USA Basketball, Stanford, FIBA/WNBA</p>
+        {% for quote in site.data.contentful.spaces.proddata.quote %}
+            <div class="each-quote">
+                <div class="col-1-2">
+                    <h5 class="italic center-text">“{{quote.quoteText}}“</h5>
+                    <p class="caps bold center-text">{{quote.author}}</p>
+                    <p class="center-text">{{author.authorTitle}}</p>
+                </div>
+                <div class="col-1-2">
+                    <img class="round" src="{{quote.picture.url}}">
+                </div>
             </div>
-            <div class="col-1-2">
-                <img class="round" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250%C3%97250&w=250&h=250">
-            </div>
-        </div>
-        <div class="each-quote">
-            <div class="col-1-2">
-                <h5 class="italic center-text">“I encourage all student-athletes to develop themselves fully in the classroom and in the respective sport… I am thankful for all the places basketball has taken me and beyond the court.“</h5>
-                <p class="caps bold center-text">Caroline Moose</p>
-                <p class="center-text">USA Basketball, Stanford, FIBA/WNBA</p>
-            </div>
-            <div class="col-1-2">
-                <img class="round" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250%C3%97250&w=250&h=250">
-            </div>
-        </div>
-        <div class="each-quote">
-            <div class="col-1-2">
-                <h5 class="italic center-text">“I encourage all student-athletes to develop themselves fully in the classroom and in the respective sport… I am thankful for all the places basketball has taken me and beyond the court.“</h5>
-                <p class="caps bold center-text">Caroline Moose</p>
-                <p class="center-text">USA Basketball, Stanford, FIBA/WNBA</p>
-            </div>
-            <div class="col-1-2">
-                <img class="round" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=250%C3%97250&w=250&h=250">
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
 </section>
