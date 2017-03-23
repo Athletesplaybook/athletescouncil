@@ -3,18 +3,22 @@ layout: default
 ---
 
 <div class="homepage"> 
-<header>
-    <section class="clearfix full-img aligner" style="background-image: url('/assets/img/home_hero.jpg');">
-        <div class="grid spacing-copy">
-            <div class="col-4-12 no-padding">
-                <h2 class="black">Paving the Way</h2>
-                <h6>Three Generations of athletes and the many roads to success in sports and life.</h6>
-                <p>An original production by The Athletes Council</p>
-                <p class="button red"><a href="">View more</a></p>
-            </div>
-        </div>
-    </section>
-</header>
+{% for story in site.data.contentful.spaces.proddata.story %}
+    {% if story.isFirstStoryOnFrontPage == true %}
+        <header>
+            <section class="clearfix full-img aligner" style="background-image: url('{{story.heroImage.url}}');">
+                <div class="grid spacing-copy">
+                    <div class="col-4-12 no-padding">
+                        <h2 class="black">{{story.title}}</h2>
+                        <h6>{{story.subtitle}}</h6>
+                        <p>An original production by The Athletes Council</p>
+                        <p class="button red"><a href="/story/{{story.title | slugify}}">View more</a></p>
+                    </div>
+                </div>
+            </section>
+        </header>
+    {% endif %}
+{% endfor %}
 <section class="section-copy center-text"> 
     <h3>Top stories</h3>
     <div class="topStories">
