@@ -43,7 +43,7 @@ layout: default
             {% assign sorted_athletes = site.data.contentful.spaces.proddata.athletesCouncil | sort:"order" %}
             {% for athlete in sorted_athletes %}
                 <div class="col-1-4 tablet-col-1-2">
-                    <img src="{{athlete.picture.url}}">
+                    <div class="each-shot" style="background-image: url('{{athlete.picture.url}}');"></div>
                     <p class="bold caps no-margin-bottom">{{athlete.name}}</p>
                     <p class="no-margin-top">{{athlete.title}}</p>
                 </div>
@@ -59,7 +59,7 @@ layout: default
             {% for leader in sorted_leaders %}
             <div class="grid leader">
                 <div class="col-3-12 tablet-col-1-3">
-                    <img class="push-right" src="{{leader.picture.url}}">
+                    <div class="push-right lead-shot" style="background-image: url('{{leader.picture.url}}');"></div>
                 </div>
                 <div class="col-9-12 tablet-col-1-2">
                     <p class="bold caps no-margin-top">{{leader.name}},</p><p>{{leader.title}}</p>

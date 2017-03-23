@@ -23,9 +23,12 @@
 .headshots-all {
 	.col-1-4 {
 		margin-bottom: 2em;
-		img {
+		.each-shot {
 			width: 100%;
-			object-fit: cover;
+			height: 140px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
 		}
 	}
 	@media screen and #{$brk-wide} {
@@ -42,11 +45,15 @@
 		margin-top: 0;
     	margin-bottom: 2em;
 	}
-	img {
-		max-width: 100%;
+	.col-4-12 .lead-shot {
+		width: 150px;
+		height: 140px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
-		.col-4-12 img {
+		.col-4-12 .lead-shot {
 			margin: 0 auto;
 		}
 	}
@@ -54,7 +61,7 @@
 		.grid {
 			padding: 20px;
 		}
-		.col-4-12 img {
+		.col-4-12 .lead-shot {
 			float: none !important;
     		display: block;
 		}
@@ -67,6 +74,16 @@
     @media screen and #{$brk-narrow} {
     	float: none !important;
     }
+}
+.features-list {
+	padding-left: 0;
+	li {
+		background: url(../assets/img/checkmark.svg) no-repeat 6px 4px transparent;
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0px 0px 1px 50px;
+    	vertical-align: middle;
+	}
 }
 .subscribe-box {
 	ul li {
