@@ -95,6 +95,9 @@ p {
     		&:before, &:after {
     			content: "\"";
     		}
+    		@media screen and #{$brk-narrow} {
+    			font-size: 18px;
+    		}
 		}
 	}
 	
