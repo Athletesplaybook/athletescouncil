@@ -1,0 +1,12 @@
+#accordeon {
+	li {
+		color: $black;
+	}
+	li.current {
+		background: $red;
+		color: $white;
+		a {
+			color: $white;
+		}
+	}
+}

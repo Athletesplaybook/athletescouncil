@@ -42,21 +42,16 @@ layout: default
 
     </div>
 </section>
+
+<!-- newsletter -->
 <section class="subscribe-form-box">
     <div class="grid">
         <div class="subscribe-form col-8-12 center no-padding">
-           <form action="">
-                <div class="form-container">
-                    <h4 class="center-text color-white no-margin black">We bring the best to you</h4>
-                    <p class="color-white center-text">Subscribe to our newsletter</p>
-                    <input type="text" placeholder="Name" name="name" required>
-                    <input type="email" placeholder="example@mail.com" name="email" required>
-                    <p class="button bg-black"><a href="">Subscribe</a></p>
-                </div>
-            </form>
+            {% include mailchimp.html %}           
         </div>
     </div>
 </section>
+
 <section class="spacing-copy">
     <div class="grid news-container">
         <div class="col-4-12">

@@ -57,14 +57,7 @@ layout: default
                 <p class="big">{{page.contentful_fields.contentAboveNewsletterLink | markdownify }}</p>
 
                 <div class="subscribe-form">
-                   <form action="">
-                      <div class="form-container">
-                        <h4 class="color-white no-margin-top">Subscribe to our mailing list</h4>
-                        <input type="text" placeholder="Name" name="name" required>
-                        <input type="email" placeholder="example@mail.com" name="email" required>
-                        <p class="button red"><a href="">Subscribe</a></p>
-                      </div>
-                    </form>
+                   {% include mailchimp.html %}
                  </div>
                 {{page.contentful_fields.contentBelowNewsletter | markdownify}}
             </div>
