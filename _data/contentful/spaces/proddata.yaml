@@ -9,7 +9,7 @@ playbook:
   image:
     title: playbook2
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/2nC3eAFcgcESuyeM4Yma4M/773adf33a14a4835f590c1bcb15723db/playbook2.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/2nC3eAFcgcESuyeM4Yma4M/773adf33a14a4835f590c1bcb15723db/playbook2.jpg
   author: Scot Bolsinger
 - sys:
     id: tzO0M2T06yGUwIMECiGeG
@@ -21,7 +21,7 @@ playbook:
   image:
     title: playbook
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/3cVJp3cc00UeKm6mQ8G4YE/f3329642d5eeb9732e9c77dd598725cd/playbook.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/3cVJp3cc00UeKm6mQ8G4YE/f3329642d5eeb9732e9c77dd598725cd/playbook.jpg
   author: Scot Bolsinger
 - sys:
     id: 1K7D5VCjMgSkew8cYsOYk8
@@ -32,7 +32,7 @@ playbook:
   image:
     title: playbook3
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/tzv5Y1uVpIASS6AGSEAAk/04cf1caff1fa4085aca17846cb894a24/playbook3.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/tzv5Y1uVpIASS6AGSEAAk/04cf1caff1fa4085aca17846cb894a24/playbook3.jpg
   author: Author 3
 story:
 - sys:
@@ -44,7 +44,7 @@ story:
   heroImage:
     title: Kaepernick QB 49ers
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/6Ktsqe8mrKKmqWEi4ekwgU/26e57ac740c07a6d7c9a328d2ba55e47/Kaepernick_QB_49ers.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/6Ktsqe8mrKKmqWEi4ekwgU/26e57ac740c07a6d7c9a328d2ba55e47/Kaepernick_QB_49ers.jpg
   contentAboveNewsletterLink: "SAN FRANCISCO – Colin Kaepernick is one of the National
     Football League’s best kept secrets. And that’s a major problem. \n\nWhile sports
     media fan the flames of public discourse as a debate around whether Kaepernick
@@ -112,7 +112,7 @@ story:
   heroImage:
     title: watts-pic
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/2PUXFugEXCwoe0o28EYeQk/1b8eb12fcfd012008bd3287023351161/watts-pic.png"
+    url: //images.contentful.com/efl6n0ctkspd/2PUXFugEXCwoe0o28EYeQk/1b8eb12fcfd012008bd3287023351161/watts-pic.png
   contentAboveNewsletterLink: "> I told Bill Russell, ‘If you can coach, I can play.’--
     \"Slick\" Watts, NBA player\n\nDonald “Slick” Watts was the ultimate underdog.
     \n\nHailing from rural Mississippi, the undersized point guard from Xavier went
@@ -174,7 +174,7 @@ story:
   heroImage:
     title: Rakavious Chambers 2 - Opelika HS
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/6LRGCTJEAMIMG2MS22Ce6c/87c1b79a84223c0576b064f0b031f935/Rakavious_Chambers_2_-_Opelika_HS.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/6LRGCTJEAMIMG2MS22Ce6c/87c1b79a84223c0576b064f0b031f935/Rakavious_Chambers_2_-_Opelika_HS.jpg
   contentAboveNewsletterLink: "WASHINGTON DC – Alabama's stamp of excellence in football
     grew a bit darker with the announcement of Rakavious Chambers of Auburn, Ala.
     as the 2017 recipient of the Franklin D. Watkins Trophy award.\n\nOn March 11
@@ -252,7 +252,7 @@ story:
   heroImage:
     title: Ruthie Bolton 11
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/51bef139111d8c99e5d5ae3a8ecd00cc/Ruthie_Bolton_11.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/51bef139111d8c99e5d5ae3a8ecd00cc/Ruthie_Bolton_11.jpg
   contentAboveNewsletterLink: "> Growing up in Brooklyn, we played a lot of ball.
     --Lenny Wilkens, Hall of Famer \n\nAs NBA Champion and Hall of Famer Lenny Wilkens
     tells stories of his Brooklyn youth, he’s not just talking about basketball. That
@@ -315,7 +315,7 @@ story:
   heroImage:
     title: EPM 6847
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/15Q8TKE2VWw4quIUKCOEqg/b6bd6aa8f24c4e9c8e79b2cd05789274/EPM_6847.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/15Q8TKE2VWw4quIUKCOEqg/b6bd6aa8f24c4e9c8e79b2cd05789274/EPM_6847.jpg
   contentAboveNewsletterLink: "> Our will to compete is the dominant factor in our
     individual and collective success as current and former athletes. --Johnathan
     Holified, Former NFL Running Back\n\nI believe that none of us achieve anything
@@ -388,7 +388,7 @@ story:
   heroImage:
     title: Ruthie Bolton 11
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/51bef139111d8c99e5d5ae3a8ecd00cc/Ruthie_Bolton_11.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/51bef139111d8c99e5d5ae3a8ecd00cc/Ruthie_Bolton_11.jpg
   contentAboveNewsletterLink: "> I grew up jumping fences and climbing trees. It was
     that outdoor lifestyle in the country called ‘country feet.' -- Ruthie Bolton,
     WNBA star, Olympian\n\nRuth Bolton rode the bus from her country home in Mississippi
@@ -446,7 +446,7 @@ quote:
   picture:
     title: quote
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/c34b59f23f24e554ab69e20c136c1039/quote.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/c34b59f23f24e554ab69e20c136c1039/quote.jpg
 - sys:
     id: 38hlvM9Fe0U4IIyI0ym6mQ
   quoteText: Quote text second
@@ -455,7 +455,7 @@ quote:
   picture:
     title: placeholder31
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/4c40QxPEAg6eigQM4kEYSm/8ae972d719ba7ae2fc73c63f5bdbb35e/placeholder31.png"
+    url: //images.contentful.com/efl6n0ctkspd/4c40QxPEAg6eigQM4kEYSm/8ae972d719ba7ae2fc73c63f5bdbb35e/placeholder31.png
 partnerLogo:
 - sys:
     id: 7hofTR75HGUuoeC2WaS4sU
@@ -463,7 +463,7 @@ partnerLogo:
   partnerLogo:
     title: logo5
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/gmtc5qMrPqYqSGOUWGcYE/a439924c296bd6451b41471191505b7b/logo5.png"
+    url: //images.contentful.com/efl6n0ctkspd/gmtc5qMrPqYqSGOUWGcYE/a439924c296bd6451b41471191505b7b/logo5.png
   order: 5
 - sys:
     id: 3d3XQczvYAoGCAKMG4u0ym
@@ -471,7 +471,7 @@ partnerLogo:
   partnerLogo:
     title: logo2
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/3DiKvOXY64AQ42UAaqOmQk/6cdeebcfafb538a734d04c0c7452a566/logo2.png"
+    url: //images.contentful.com/efl6n0ctkspd/3DiKvOXY64AQ42UAaqOmQk/6cdeebcfafb538a734d04c0c7452a566/logo2.png
   order: 2
 - sys:
     id: 4j1LcR2qzKwIQsGmQkGU0Q
@@ -479,7 +479,7 @@ partnerLogo:
   partnerLogo:
     title: Fanisko
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/mlpWefy4o0gwk60GYKMC2/e0a31bb8d63bc725112ff3bf529e7bff/logo3.png"
+    url: //images.contentful.com/efl6n0ctkspd/mlpWefy4o0gwk60GYKMC2/e0a31bb8d63bc725112ff3bf529e7bff/logo3.png
   order: 3
 - sys:
     id: 3o9dNjPKPKSgCAsAaaA66c
@@ -487,7 +487,7 @@ partnerLogo:
   partnerLogo:
     title: logo4
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/6URond4TRu28UOMgseAQ08/b17fadea5da9396d7dc1d4ca9ae1842d/logo4.png"
+    url: //images.contentful.com/efl6n0ctkspd/6URond4TRu28UOMgseAQ08/b17fadea5da9396d7dc1d4ca9ae1842d/logo4.png
   order: 4
 - sys:
     id: 2LWpwu6AtOGuGmw2UsOGiE
@@ -495,7 +495,7 @@ partnerLogo:
   partnerLogo:
     title: logo1
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/3wAKQ0zSikyMwQUYI4CmWM/79149b3fe3d43bef9a8569507122daf1/logo1.png"
+    url: //images.contentful.com/efl6n0ctkspd/3wAKQ0zSikyMwQUYI4CmWM/79149b3fe3d43bef9a8569507122daf1/logo1.png
   order: 1
 - sys:
     id: 46S7SgiGU0aOyyqas0uqyY
@@ -503,7 +503,7 @@ partnerLogo:
   partnerLogo:
     title: logo6
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/O5PLPc5Ca4qw4qsIGwCOy/7bd1afc615f2956cceb63280b91caa2b/logo6.png"
+    url: //images.contentful.com/efl6n0ctkspd/O5PLPc5Ca4qw4qsIGwCOy/7bd1afc615f2956cceb63280b91caa2b/logo6.png
   order: 6
 athletesCouncil:
 - sys:
@@ -514,7 +514,7 @@ athletesCouncil:
   picture:
     title: signup male
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png"
+    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
 - sys:
     id: 5MWe7xeQwgYGUkaQC6ESuG
   name: Athlete 2
@@ -523,7 +523,7 @@ athletesCouncil:
   picture:
     title: signup male
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png"
+    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
 - sys:
     id: 352bFWvxywiYCsW2UY66uO
   name: Athlete 1
@@ -532,7 +532,7 @@ athletesCouncil:
   picture:
     title: signup male
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png"
+    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
 councilTeamLeaders:
 - sys:
     id: 7Bwqi4a7968kKeSmgo2I8q
@@ -542,7 +542,7 @@ councilTeamLeaders:
   picture:
     title: Justin Foster - Crest HS.jfif
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/1rTDRCz6x20uQMumE8OOSA/55f2079d4209d56911de35675eba5543/Justin_Foster_-_Crest_HS.jfif.jpeg"
+    url: //images.contentful.com/efl6n0ctkspd/1rTDRCz6x20uQMumE8OOSA/55f2079d4209d56911de35675eba5543/Justin_Foster_-_Crest_HS.jfif.jpeg
   bio: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut *labore* et dolore magna aliqua. Ut enim ad minim veniam,
@@ -558,7 +558,7 @@ councilTeamLeaders:
   picture:
     title: Connor Wedington - Sumner HS
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/RcgpHX2qo6akwIocCgKki/a5d9d7edf40b19ffb83008cf1689f674/Connor_Wedington_-_Sumner_HS.jpg"
+    url: //images.contentful.com/efl6n0ctkspd/RcgpHX2qo6akwIocCgKki/a5d9d7edf40b19ffb83008cf1689f674/Connor_Wedington_-_Sumner_HS.jpg
   bio: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad __minim veniam__,
@@ -573,10 +573,9 @@ webPagesContent:
   aboutUsHeader: We are a community of former professional athletes empowering student
     athletes and parents design their playbook for success in sports and life.
   aboutUsLink: About Us Header Link
-  aboutUsOurMission: "The Athletes Council exists to build, grow and sustain long-term
-    relationships between a global community of student athletes connected to a community
-    of former professional athletes who are dedicated to ensuring the next generation’s
-    success in sports and life.\n\n"
+  aboutUsOurMission: |+
+    The Athletes Council exists to build, grow and sustain long-term relationships between a global community of student athletes connected to a community of former professional athletes who are dedicated to ensuring the next generation’s success in sports and life.
+
   aboutUsALetterFromTheCeo: Lorem ipsum dolor sit amet, qui id alia veri fastidii,
     novum labore molestiae id per, per elit nominati consulatu ad. Recteque dissentiunt
     eu vel, alterum facilisis at has. Utroque eleifend adipiscing in sed, sonet legendos
@@ -592,4 +591,4 @@ webPagesContent:
   aboutUsCeoPicture:
     title: signup male
     description: 
-    url: "//images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png"
+    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png

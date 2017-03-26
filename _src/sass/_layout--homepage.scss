@@ -52,6 +52,9 @@
 		.col-8-12 {
 			.col-1-1 .each-news {
 				height: 320px;
+				&:first-of-type {
+					margin-top: 0;
+				}
 			}
 			.col-1-2 .each-news {
 				height: 212px;
@@ -117,12 +120,10 @@
 		position: relative;
 		background-size: cover; 
 		margin: 20px 20px 0 0;
+		width: 100%;
 	}
 	.news-btns .button {
 		margin-top: 2em;
-		&:nth-of-type(1) {
-			margin-left: -47px;
-		}
 		&:nth-of-type(2) {
 			margin-left: 15px;
 		}
@@ -147,6 +148,7 @@
 			width: 50%;
 		    padding-top: 10%;
 		    left: 42%;
+		    margin-top: 0;
 		    position: relative;
 		}
 	}
@@ -154,6 +156,9 @@
 		width: 85%;
 		margin-top: 2em;
 		padding: 20px 35px;
+		@media screen and #{$brk-wide} {
+			padding: 20px;
+		}
 		.form-container {
 			padding: 0;
 			input {
@@ -180,6 +185,9 @@
     		margin-bottom: 0;
 			li {
 				padding-left: 17%;
+				@media screen and #{$brk-wide} {
+					padding-left: 14%;
+				}
 				&:first-of-type {
 					padding-left: 0;
 				}
@@ -258,16 +266,25 @@
 		}
 	}
 }
-
 .story-bar {
 	.story-item {
 		width: 50%;
+		float: left;
+    	margin: 0;
 		&:first-of-type, &:nth-of-type(4) {
 			width: 100%;
 		}
+		&:not(:nth-of-type(2)) {
+			padding: 0;
+		}
+		&:nth-of-type(2) {
+			padding-right: 10px;
+		}
+		&:nth-of-type(3) {
+			padding-left: 10px;
+		}
 	}
 }
-
 .button.tag {
 	border: 1px solid;
 }
