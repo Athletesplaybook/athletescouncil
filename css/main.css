@@ -626,12 +626,6 @@ footer {
     top: 19%;
     left: 4%;
     position: relative; }
-.homepage .news-container .col-8-12 .col-1-1 .each-news, .category-page .news-container .col-8-12 .col-1-1 .each-news {
-  height: 320px; }
-  .homepage .news-container .col-8-12 .col-1-1 .each-news:first-of-type, .category-page .news-container .col-8-12 .col-1-1 .each-news:first-of-type {
-    margin-top: 0; }
-.homepage .news-container .col-8-12 .col-1-2 .each-news, .category-page .news-container .col-8-12 .col-1-2 .each-news {
-  height: 212px; }
 .homepage .topStories .slick-dots, .category-page .topStories .slick-dots {
   bottom: 60px !important;
   width: 50% !important;
@@ -680,10 +674,13 @@ footer {
   background-size: cover;
   margin: 20px 20px 0 0;
   width: 100%; }
+  .homepage .each-news .caption h4, .category-page .each-news .caption h4 {
+    margin-top: 10px; }
 .homepage .news-btns .button, .category-page .news-btns .button {
   margin-top: 2em; }
-  .homepage .news-btns .button:nth-of-type(2), .category-page .news-btns .button:nth-of-type(2) {
-    margin-left: 15px; }
+  @media screen and (min-width: 335px) {
+    .homepage .news-btns .button:nth-of-type(2), .category-page .news-btns .button:nth-of-type(2) {
+      margin-left: 15px; } }
 .homepage .latest-events, .category-page .latest-events {
   margin: 20px 0 2em 0;
   width: 85%;
@@ -794,12 +791,23 @@ footer {
   margin: 0; }
   .story-bar .story-item:first-of-type, .story-bar .story-item:nth-of-type(4) {
     width: 100%; }
+    .story-bar .story-item:first-of-type .each-news, .story-bar .story-item:nth-of-type(4) .each-news {
+      height: 320px; }
   .story-bar .story-item:not(:nth-of-type(2)) {
     padding: 0; }
   .story-bar .story-item:nth-of-type(2) {
     padding-right: 10px; }
   .story-bar .story-item:nth-of-type(3) {
     padding-left: 10px; }
+  .story-bar .story-item .each-news {
+    height: 212px; }
+  @media screen and (max-width: 767px) {
+    .story-bar .story-item {
+      width: 100%; }
+      .story-bar .story-item:nth-of-type(2) {
+        padding-right: 0; }
+      .story-bar .story-item:nth-of-type(3) {
+        padding-left: 0; } }
 
 .button.tag {
   border: 1px solid; }
