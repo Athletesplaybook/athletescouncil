@@ -830,6 +830,10 @@ footer {
     flex: 1;
     -webkit-flex: 1;
     margin-right: 1em; }
+    @media screen and (max-width: 767px) {
+      .playbook-container .col-1-1 .playbook-img {
+        flex: 2;
+        -webkit-flex: 2; } }
   .playbook-container .col-1-1 .playbook-content {
     flex: 1;
     -webkit-flex: 1; }
