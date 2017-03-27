@@ -192,7 +192,6 @@
             }
         }
     }
-
     // Accordeon 
 
     #accordeon {
@@ -259,7 +258,22 @@
             }
         }
     }
+    @media screen and #{$brk-narrow} {
+        .news-container .col-4-12 {
+            padding: 0;
+        }
+        .latest-events {
+            width: 100%;
+        }
+        .sidebar-subscribe {
+            width: 100%;
+        }
+        #accordeon {
+            width: 100%;
+        }
+    }
 }
+
 .story-bar {
     .story-item {
         width: 50%;

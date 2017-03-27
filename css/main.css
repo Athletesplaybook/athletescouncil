@@ -784,6 +784,15 @@ footer {
     display: none; }
   .homepage #accordeon li.active ul, .category-page #accordeon li.active ul {
     display: block; }
+@media screen and (max-width: 767px) {
+  .homepage .news-container .col-4-12, .category-page .news-container .col-4-12 {
+    padding: 0; }
+  .homepage .latest-events, .category-page .latest-events {
+    width: 100%; }
+  .homepage .sidebar-subscribe, .category-page .sidebar-subscribe {
+    width: 100%; }
+  .homepage #accordeon, .category-page #accordeon {
+    width: 100%; } }
 
 .story-bar .story-item {
   width: 50%;
