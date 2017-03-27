@@ -140,7 +140,7 @@ layout: default
     <div class="partners">
         {% assign sorted_logos = site.data.contentful.spaces.proddata.partnerLogo | sort:"order" %}
         {% for logo in sorted_logos %}
-        <div class="col-1-3 bg-gray">
+        <div class="col-1-3 bg-gray tablet-col-1-2">
              <img src="{{ logo.partnerLogo.url }}" alt="{{ logo.name}}">
         </div>
         {% endfor %}

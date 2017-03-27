@@ -302,6 +302,9 @@
     img {
         margin: 0 auto;
         max-width: 300px;
+        @media screen and #{$brk-wide} {
+            max-width: 100px;
+        }
     }
 }
 .playbook-container {
@@ -352,7 +355,7 @@
 
 .sliderQuotes {
     .slick-next {
-        right: -40px !important;
+        right: -27px !important;
         &:before {
             background-image: url('../assets/img/next-red.svg');
             color: transparent !important;
@@ -361,7 +364,7 @@
         }
     }
     .slick-prev {
-        left: -54px !important;
+        left: -43px !important;
         z-index: 99;
         &:before {
             margin-left: 0 !important;
@@ -369,6 +372,22 @@
             color: transparent !important;
             background-repeat: no-repeat;
             opacity: 1;
+        }
+    }
+    @media screen and #{$brk-narrow} {
+        .slick-prev {
+            left: -19px !important;
+        }
+        .slick-next {
+            right: -6px !important;
+        }
+    }
+    @media screen and #{$brk-tablet-min} and #{$brk-wide} {
+        .slick-prev {
+            left: -20px !important;
+        }
+        .slick-next {
+            right: -4px !important;
         }
     }
 }
@@ -389,5 +408,23 @@
             margin: 0 auto;
             display: block;
         }
+        @media screen and #{$brk-tablet-min} and #{$brk-wide} {
+            margin: 0;
+            &:nth-of-type(4) {
+                border-bottom: 1px solid $gray-light;
+            }
+            &:nth-of-type(odd) {
+                border-right: 1px solid $gray-light;
+            }
+            &:nth-of-type(2) {
+                border-left: none;
+            }
+        }
+        @media screen and #{$brk-narrow} {
+            margin: 0;
+            &:nth-of-type(4), &:nth-of-type(5) {
+                border-bottom: 1px solid $gray-light;
+            }
+        } 
     }
 }
