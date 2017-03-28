@@ -316,6 +316,9 @@ ul li {
 
 .spacing-copy {
   padding: 50px 0; }
+  @media screen and (max-width: 767px) {
+    .spacing-copy {
+      padding: 20px 0; } }
 
 .overlay-red-skewed:after {
   content: '';
@@ -605,10 +608,17 @@ footer {
     background-repeat: no-repeat;
     background-position: center; }
 .homepage .form-container, .category-page .form-container {
-  margin: 0; }
+  margin: 0;
+  padding: 50px 0; }
   .homepage .form-container p, .category-page .form-container p {
     margin-top: 0;
     margin-bottom: 2em; }
+  @media screen and (max-width: 767px) {
+    .homepage .form-container, .category-page .form-container {
+      padding: 20px 0; }
+      .homepage .form-container input, .category-page .form-container input {
+        width: 100%;
+        margin-top: 12px; } }
 .homepage .slider-overlay, .category-page .slider-overlay {
   width: 60%;
   height: 100%;
