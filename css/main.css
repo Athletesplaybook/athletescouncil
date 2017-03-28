@@ -519,8 +519,29 @@ a {
 
 nav {
   width: 100%;
-  min-height: 65px;
-  position: relative; }
+  position: relative;
+  display: flex; }
+  nav .nav-item-left, nav .nav-item-right {
+    display: flex;
+    flex: 1; }
+  nav .nav-item-right {
+    justify-content: flex-end; }
+  nav .nav-search {
+    flex: 3.5; }
+    @media screen and (max-width: 520px) {
+      nav .nav-search {
+        display: none; } }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      nav .nav-search {
+        flex: 2; } }
+    @media screen and (min-width: 1280px) {
+      nav .nav-search {
+        flex: 4.5; } }
+  nav .nav-login {
+    flex: 0.5; }
+  @media screen and (max-width: 767px) {
+    nav .nav-btn {
+      flex: 1.5; } }
   nav form {
     position: relative; }
   nav .button.red {
@@ -530,6 +551,13 @@ nav {
       vertical-align: middle; }
   nav .logo {
     margin-left: 90px; }
+    @media screen and (max-width: 767px) {
+      nav .logo {
+        margin-left: 10px;
+        width: 85px; } }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      nav .logo {
+        margin-left: 20px; } }
   nav input {
     height: 30px;
     border: 1px solid #4A4A4A;

@@ -2,8 +2,36 @@
 
 nav {
 	width: 100%;
-	min-height: 65px;
+	//min-height: 65px;
 	position: relative;
+    display: flex;
+	.nav-item-left, .nav-item-right {
+	    display: flex;
+	    flex: 1;
+    }
+    .nav-item-right {
+	   	justify-content: flex-end;
+	}
+	.nav-search {
+		flex: 3.5;
+		@media screen and (max-width: 520px) {
+			display: none; 
+		}
+		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			flex: 2;
+		}
+		@media screen and (min-width: 1280px) {
+			flex: 4.5;
+		}
+	}
+	.nav-login {
+		flex: 0.5;
+	}
+	.nav-btn {
+		@media screen and #{$brk-narrow} {
+			flex: 1.5;
+		}
+	}
 	form {
 		position: relative;
 	}
@@ -16,6 +44,13 @@ nav {
 	}
 	.logo {
 		margin-left: 90px;
+		@media screen and #{$brk-narrow} {
+			margin-left: 10px;
+			width: 85px;
+		}
+		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			margin-left: 20px;
+		}
 	}
 	input {
 		height: 30px;
