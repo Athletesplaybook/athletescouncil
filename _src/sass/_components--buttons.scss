@@ -23,6 +23,9 @@
 		padding-left: 40px;
 		-webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
 		clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+		@media screen and #{$brk-narrow} {
+			padding-left: 25px;
+		}
 	}
 }
 p.button {

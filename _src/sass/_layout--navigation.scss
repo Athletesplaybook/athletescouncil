@@ -1,21 +1,16 @@
 //Header
-
 nav {
 	width: 100%;
 	//min-height: 65px;
 	position: relative;
     display: flex;
-	.nav-item-left, .nav-item-right {
-	    display: flex;
-	    flex: 1;
-    }
-    .nav-item-right {
-	   	justify-content: flex-end;
-	}
 	.nav-search {
 		flex: 3.5;
 		@media screen and (max-width: 520px) {
 			display: none; 
+		}
+		@media screen and (min-width: 521px) and #{$brk-narrow} {
+			flex: 1;
 		}
 		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
 			flex: 2;
@@ -59,6 +54,9 @@ nav {
 		min-width: 250px;
 		color: $gray;
 		font-family: $stack-opensans;
+		@media screen and (min-width: 521px) and #{$brk-narrow} {
+			min-width: 185px;
+		}
 	}
 	p {
 		display: inline-block;
@@ -76,45 +74,79 @@ nav {
 	}
 }
 
-
 //Footer
 footer {
 	padding: 15px 0;
 }
+.aligner {
+	@media screen and #{$brk-narrow} {
+		display: block;
+	}
+}
+.social-icons-box {
+	justify-content: flex-end;
+}
 .social-icons {
 	padding: 0;
-	width: 50%;
+	flex: 0.5;
+	justify-content: space-around;
 	li {
-		padding-left: 14%;
 		vertical-align: middle;
 	}
 	svg {
 		fill: $white;
 		width: 24px;
 	}
+	@media screen and #{$brk-narrow} {
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+	}
+	@media screen and (min-width: 500px) and #{$brk-wide} {
+		justify-content: flex-start;
+		li {
+			margin: 0 20px 0 0;
+		}
+	}
 }
 .creds {
+	justify-content: flex-start;
 	img {
 		display: inline-block;
 		vertical-align: middle;
 	}
 	ul {
-		width: 70%;
-		display: inline-block;
+		flex: 2;
+		justify-content: space-around;
+		margin: 0;
+		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
+			width: 75%;
+			padding: 0;
+		}
 		li {
-			margin-left: 1em;
+			margin-right: 1em;
 			p {
 				color: $gray;
 			}
 		}
 	}
-	
+	@media screen and #{$brk-narrow} {
+		display: block;
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+		ul li {
+			margin-right: 10px;
+		}
+	}
 }
 .menu-content {
 	display: none;
 	width: 300px;
     position: absolute;
     right: 0;
+    top: 65px;
     z-index: 999;
     background: $red;
     ul {

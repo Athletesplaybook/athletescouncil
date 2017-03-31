@@ -25,6 +25,13 @@ ul li {
 .clearfix {
 	clear: both;
 }
+.flex-item-left, .flex-item-right {
+    display: flex;
+    flex: 1;
+}
+.flex-item-right {
+    justify-content: flex-end;
+}
 .aligner {
   	display: -webkit-box;
     display: -moz-box;
