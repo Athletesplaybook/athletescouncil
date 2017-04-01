@@ -78,7 +78,7 @@ nav {
 footer {
 	padding: 15px 0;
 }
-.aligner {
+.grid.aligner {
 	@media screen and #{$brk-narrow} {
 		display: block;
 	}
