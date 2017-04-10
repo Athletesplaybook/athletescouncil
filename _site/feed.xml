@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Athletes Council</title>
-    <description>Welcome to the home of The Athletes Council.
+    <title>The Athletes Playbook</title>
+    <description>Welcome to the home of The Athletes Playbook.
 </description>
     <link>https://www.athletecouncil.com/</link>
     <atom:link href="https://www.athletecouncil.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Mar 2017 19:52:41 -0700</pubDate>
-    <lastBuildDate>Sat, 25 Mar 2017 19:52:41 -0700</lastBuildDate>
-    <generator>Jekyll v3.4.1</generator>
+    <pubDate>Mon, 10 Apr 2017 16:58:04 -0400</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2017 16:58:04 -0400</lastBuildDate>
+    <generator>Jekyll v3.4.2</generator>
     
   </channel>
 </rss>

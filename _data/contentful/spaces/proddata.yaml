@@ -250,9 +250,9 @@ story:
   isFirstStoryOnFrontPage: false
   isTopStory: true
   heroImage:
-    title: Ruthie Bolton 11
+    title: Lenny Wilkens
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/51bef139111d8c99e5d5ae3a8ecd00cc/Ruthie_Bolton_11.jpg
+    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/781c47ddbe870c87efd0c59bd0bfe096/Coach_Lenny_Wilkens_transparent_background.png
   contentAboveNewsletterLink: "> Growing up in Brooklyn, we played a lot of ball.
     --Lenny Wilkens, Hall of Famer \n\nAs NBA Champion and Hall of Famer Lenny Wilkens
     tells stories of his Brooklyn youth, he’s not just talking about basketball. That
@@ -386,9 +386,9 @@ story:
     Olympic champion '
   isTopStory: false
   heroImage:
-    title: Ruthie Bolton 11
+    title: Lenny Wilkens
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/51bef139111d8c99e5d5ae3a8ecd00cc/Ruthie_Bolton_11.jpg
+    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/781c47ddbe870c87efd0c59bd0bfe096/Coach_Lenny_Wilkens_transparent_background.png
   contentAboveNewsletterLink: "> I grew up jumping fences and climbing trees. It was
     that outdoor lifestyle in the country called ‘country feet.' -- Ruthie Bolton,
     WNBA star, Olympian\n\nRuth Bolton rode the bus from her country home in Mississippi
@@ -437,25 +437,6 @@ story:
     from her family and basketball teammates who witnessed her tenacity and undeterred
     determination to succeed. \n"
   category: Life
-quote:
-- sys:
-    id: 673FkjY21aeMqkGKqoOuyM
-  quoteText: Quote text comes here
-  author: Author comes here
-  authorTitle: Author Title
-  picture:
-    title: quote
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/c34b59f23f24e554ab69e20c136c1039/quote.jpg
-- sys:
-    id: 38hlvM9Fe0U4IIyI0ym6mQ
-  quoteText: Quote text second
-  author: Second author
-  authorTitle: author title
-  picture:
-    title: placeholder31
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/4c40QxPEAg6eigQM4kEYSm/8ae972d719ba7ae2fc73c63f5bdbb35e/placeholder31.png
 partnerLogo:
 - sys:
     id: 7hofTR75HGUuoeC2WaS4sU
@@ -505,6 +486,27 @@ partnerLogo:
     description: 
     url: //images.contentful.com/efl6n0ctkspd/O5PLPc5Ca4qw4qsIGwCOy/7bd1afc615f2956cceb63280b91caa2b/logo6.png
   order: 6
+quote:
+- sys:
+    id: 673FkjY21aeMqkGKqoOuyM
+  quoteText: I encourage all student-athletes to develop themselves fully in the classroom
+    and in their respective sport. I am appreciative of all the places basketball
+    has taken me on the court and in life.
+  author: Carolyn Moos
+  authorTitle: USA Basketball/Stanford/WNBA
+  picture:
+    title: quote
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/c34b59f23f24e554ab69e20c136c1039/quote.jpg
+- sys:
+    id: 38hlvM9Fe0U4IIyI0ym6mQ
+  quoteText: Quote text second
+  author: Second author
+  authorTitle: author title
+  picture:
+    title: placeholder31
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/4c40QxPEAg6eigQM4kEYSm/8ae972d719ba7ae2fc73c63f5bdbb35e/placeholder31.png
 athletesCouncil:
 - sys:
     id: CyhCzkQL286KKWMsSEwOc

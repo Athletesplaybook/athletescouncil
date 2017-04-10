@@ -1,8 +1,8 @@
 # Site settings
-title: The Athletes Council
-email: contact@athletecouncil.com
+title: The Athletes Playbook
+email: contact@athleteplaybook.com
 description: >
-  Welcome to the home of The Athletes Council.
+  Welcome to the home of The Athletes Playbook.
 baseurl: ""
 url: "https://www.athletecouncil.com" # the base hostname & protocol for your site
 image_path: '/assets/img'

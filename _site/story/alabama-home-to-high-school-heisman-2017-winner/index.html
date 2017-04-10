@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width' />
   <title>Alabama home to &#39;high school Heisman&#39; 2017 winner</title>
-  	<meta name="description" content="Welcome to the home of The Athletes Council.
+  	<meta name="description" content="Welcome to the home of The Athletes Playbook.
 ">
   	<link rel="icon" type="image/png" href="/favicon.png">
   	<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png">
@@ -19,7 +19,7 @@
 
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="canonical" href="https://www.athletecouncil.com/story/alabama-home-to-high-school-heisman-2017-winner/">
-	<link rel="alternate" type="application/rss+xml" title="The Athletes Council" href="https://www.athletecouncil.com/feed.xml">
+	<link rel="alternate" type="application/rss+xml" title="The Athletes Playbook" href="https://www.athletecouncil.com/feed.xml">
     <link rel="stylesheet" href="/assets/slick/slick.css">
     <link rel="stylesheet" href="/assets/slick/slick-theme.css">
 </head>
@@ -30,29 +30,25 @@
     <nav>
 
 <!-- Nav start  -->
-<div class="bg-black">
-    <nav class="aligner">
-        <div class="col-1-2 aligner-item">
-            <a href="/">
-                <img src="/assets/img/logo_full.png" class="logo">
-            </a>
-        </div>
-        <div class="col-1-2 no-padding aligner">
-            <div class="col-1-2 aligner-item no-padding">
-                <form action="">
-                    <input class="bg-black" type="search" name="search" placeholder="Search website">
-                    <img src="/assets/img/magnifying-glass.svg" class="search-icon">
-                </form>
-            </div>
-            <div class="col-1-2 no-padding">
-                <p class="caps color-white push-right">Login</p>
-            </div>
-            <div class="col-1-2 push-right no-padding">
-                <p class="button push-right red skewed menuIcon"><img src="/assets/img/menu.svg" class="menu-icon"><a href="">Menu</a></p>
-            </div>
-        </div>
-    </nav>
-</div>
+<nav class="navbar bg-black aligner">
+    <div class="flex-item-left nav-logo">
+        <a href="/">
+            <img src="/assets/img/logo_full.png" class="logo">
+        </a>
+    </div>
+    <div class="flex-item-right no-padding nav-search">
+        <form action="">
+            <input class="bg-black" type="search" name="search" placeholder="Search website">
+            <img src="/assets/img/magnifying-glass.svg" class="search-icon">
+        </form>
+    </div>
+    <div class="flex-item-right no-padding nav-login">
+        <p class="caps color-white">Login</p>
+    </div>
+    <div class="flex-item-right no-padding">
+        <p class="button red skewed menuIcon"><img src="/assets/img/menu.svg" class="menu-icon"><a href="">Menu</a></p>
+    </div>
+</nav>
 <div class="menu-content">
     <ul>
         <li><a href="/"><p>Home</p></a></li>
@@ -219,18 +215,18 @@ The Watkins Award has been presented annually to African American scholar-athlet
 
       </div>
 
-    <footer class="bg-black">
+    <footer class="bg-black clearfix">
     <div class="grid aligner">
-        <div class="col-1-2 creds">
+        <div class="flex-item-left creds">
             <img src="/assets/img/logo.png">
             <ul>
-                <li><p class="small color-white">&#64;2017 The Athletes Council</p></li>
+                <li><p class="small color-white">&#64;2017 The Athletes Playbook</p></li>
                 <li><p class="small color-white">Privacy</p></li>
                 <li><p class="small color-white">Terms</p></li>
             </ul>
         </div>
-        <div class="col-1-2">
-            <ul class="social-icons push-right">
+        <div class="flex-item-right social-icons-box">
+            <ul class="social-icons aligner">
                 <li>
                     <a href="" target="_blank">
                         <svg baseProfile="tiny" height="24px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M13,10h3v3h-3v7h-3v-7H7v-3h3V8.745c0-1.189,0.374-2.691,1.118-3.512C11.862,4.41,12.791,4,13.904,4H16v3h-2.1   C13.402,7,13,7.402,13,7.899V10z"/></g></svg>
@@ -267,9 +263,6 @@ The Watkins Award has been presented annually to African American scholar-athlet
     </div>
 </footer>
 
-
-
-
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/app.js"></script>
 <script src="/assets/slick/slick.min.js"></script>
@@ -281,7 +274,11 @@ The Watkins Award has been presented annually to African American scholar-athlet
       slidesToScroll: 1,
       centerMode: false,
       arrows: true,
-      dots: true
+      dots: true //,
+      // responsive: [{     //uncomment this to have slides stack on mobile
+      //   breakpoint: 767,
+      //       settings: "unslick"
+      //   }]
     });
    $('.sliderQuotes').slick({
         infinite: true,
@@ -291,7 +288,16 @@ The Watkins Award has been presented annually to African American scholar-athlet
         arrows: true,
         dots: false
    });
+
+
+// about page event listener
+  $('.about-header').on('click', function(){
+        $('.about-header').html('<iframe width="100%" height="500" src="https://www.youtube.com/embed/651UYYxrfh0" frameborder="0" allowfullscreen></iframe>')
+    })
+  
 </script>
+
+
 
   </body>
 

@@ -3,7 +3,7 @@
         <div class="flex-item-left creds">
             <img src="/assets/img/logo.png">
             <ul>
-                <li><p class="small color-white">&#64;2017 The Athletes Council</p></li>
+                <li><p class="small color-white">&#64;2017 The Athletes Playbook</p></li>
                 <li><p class="small color-white">Privacy</p></li>
                 <li><p class="small color-white">Terms</p></li>
             </ul>
@@ -60,4 +60,12 @@
         arrows: true,
         dots: false
    });
+
+
+// about page event listener
+  $('.about-header').on('click', function(){
+        $('.about-header').html('<iframe width="100%" height="500" src="https://www.youtube.com/embed/{{site.data.contentful.spaces.proddata.webPagesContent[0].aboutPageYoutubeVideoId}}" frameborder="0" allowfullscreen></iframe>')
+    })
+  
 </script>
+
