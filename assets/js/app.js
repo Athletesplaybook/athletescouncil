@@ -9,4 +9,10 @@ $(document).ready(function(){
 		e.preventDefault();
 		$('.menu-content').slideToggle(200);
 	});
+
+	// about page event listener
+	$('.about-header').on('click', function(){
+        $('.about-header').html(`<iframe width="100%" height="500" src="https://www.youtube.com/embed/` + aboutVideoId + `" frameborder="0" allowfullscreen></iframe>`)
+    })
+
 })
