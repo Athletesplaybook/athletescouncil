@@ -4,6 +4,18 @@ nav {
 	//min-height: 65px;
 	position: relative;
     display: flex;
+    .nav-logo {
+    	margin-top: 0px;
+    	flex: 2;
+    	h1 {
+    		color: #fff;
+    		float: right;
+    		margin-top: 0;
+    		margin-bottom: 0;
+    		margin-left: 15px;
+    		font-size: 14px;
+    	}
+    }
 	.nav-search {
 		flex: 3.5;
 		@media screen and (max-width: 520px) {
@@ -39,9 +51,11 @@ nav {
 	}
 	.logo {
 		margin-left: 90px;
+		float: left;
 		@media screen and #{$brk-narrow} {
 			margin-left: 10px;
-			width: 85px;
+			width: 60px;
+			margin-top:0;
 		}
 		@media screen and #{$brk-tablet-min} and #{$brk-wide} {
 			margin-left: 20px;

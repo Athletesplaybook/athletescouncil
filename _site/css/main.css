@@ -536,6 +536,16 @@ nav {
   width: 100%;
   position: relative;
   display: flex; }
+  nav .nav-logo {
+    margin-top: 0px;
+    flex: 2; }
+    nav .nav-logo h1 {
+      color: #fff;
+      float: right;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 15px;
+      font-size: 14px; }
   nav .nav-search {
     flex: 3.5; }
     @media screen and (max-width: 520px) {
@@ -563,11 +573,13 @@ nav {
       font-size: 14px;
       vertical-align: middle; }
   nav .logo {
-    margin-left: 90px; }
+    margin-left: 90px;
+    float: left; }
     @media screen and (max-width: 767px) {
       nav .logo {
         margin-left: 10px;
-        width: 85px; } }
+        width: 60px;
+        margin-top: 0; } }
     @media screen and (min-width: 768px) and (max-width: 1023px) {
       nav .logo {
         margin-left: 20px; } }
