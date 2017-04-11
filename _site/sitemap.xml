@@ -4,9 +4,24 @@
   
     
     <url>
+      <loc>https://www.athletecouncil.com/404/</loc>
+      
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>https://www.athletecouncil.com/about/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -21,7 +36,7 @@
     <url>
       <loc>https://www.athletecouncil.com/category/education/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,7 +51,7 @@
     <url>
       <loc>https://www.athletecouncil.com/faq/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -51,7 +66,7 @@
     <url>
       <loc>https://www.athletecouncil.com/feed.xml</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -66,7 +81,7 @@
     <url>
       <loc>https://www.athletecouncil.com/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +96,7 @@
     <url>
       <loc>https://www.athletecouncil.com/category/life/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +113,7 @@
     <url>
       <loc>https://www.athletecouncil.com/category/sports/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -113,52 +128,7 @@
     <url>
       <loc>https://www.athletecouncil.com/category/wealth/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://www.athletecouncil.com/story/alabama-home-to-high-school-heisman-2017-winner/</loc>
-      
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://www.athletecouncil.com/story/small-kid-from-big-apple-wins-it-all/</loc>
-      
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://www.athletecouncil.com/story/fostering-competitive-spirit/</loc>
-      
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -173,7 +143,7 @@
     <url>
       <loc>https://www.athletecouncil.com/story/mighty-ruthie-still-leaping-life-s-fences/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,9 +156,9 @@
   
     
     <url>
-      <loc>https://www.athletecouncil.com/story/opinion-nfl-sends-ominous-message-to-kaepernick-student-athletes/</loc>
+      <loc>https://www.athletecouncil.com/story/small-kid-from-big-apple-wins-it-all/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -203,7 +173,67 @@
     <url>
       <loc>https://www.athletecouncil.com/story/underdogs-unite/</loc>
       
-        <lastmod>2017-04-10T17:26:00-04:00</lastmod>
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/alabama-home-to-high-school-heisman-2017-winner/</loc>
+      
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/former-olympic-training-ground-opens-to-elite-athletes/</loc>
+      
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/opinion-nfl-sends-ominous-message-to-kaepernick-student-athletes/</loc>
+      
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.athletecouncil.com/story/watts-basketball-gamechangers-for-life/</loc>
+      
+        <lastmod>2017-04-10T23:46:38-04:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
