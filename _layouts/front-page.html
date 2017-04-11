@@ -43,6 +43,25 @@ layout: default
     </div>
 </section>
 
+<section class="spacing-copy">
+<div class="grid">
+    <div class="sliderQuotes col-11-12 center no-padding">
+        {% for quote in site.data.contentful.spaces.proddata.quote %}
+            <div class="each-quote">
+                <div class="col-1-2">
+                    <h5 class="italic center-text">“{{quote.quoteText}}“</h5>
+                    <p class="caps bold center-text">{{quote.author}}</p>
+                    <p class="center-text">{{author.authorTitle}}</p>
+                </div>
+                <div class="col-1-2">
+                    <img class="round" src="/assets/img/signup_male.png"/>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+</section>
+
 <!-- newsletter -->
 <section class="subscribe-form-box">
     <div class="grid">
@@ -118,24 +137,6 @@ layout: default
         <div style="clear:both;"></div>
     </div>
     <div class="center-text"><p class="button red"><a href="">Start your own playbook</a></p></div>
-</section>
-<section class="spacing-copy">
-<div class="grid">
-    <div class="sliderQuotes col-11-12 center no-padding">
-        {% for quote in site.data.contentful.spaces.proddata.quote %}
-            <div class="each-quote">
-                <div class="col-1-2">
-                    <h5 class="italic center-text">“{{quote.quoteText}}“</h5>
-                    <p class="caps bold center-text">{{quote.author}}</p>
-                    <p class="center-text">{{author.authorTitle}}</p>
-                </div>
-                <div class="col-1-2">
-                    <img class="round" src="/assets/img/signup_male.png"/>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-</div>
 </section>
 <section>
     <div class="partners">
