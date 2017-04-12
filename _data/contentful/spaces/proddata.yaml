@@ -351,7 +351,7 @@ story:
   title: 'Watts Basketball: Gamechangers for life'
   subtitle: Agony and thrill of Sweet 16 propels Watts’ vision
   isFirstStoryOnFrontPage: true
-  isTopStory: true
+  isTopStory: false
   heroImage:
     title: Donald Watts
     description: Watts Basketball CEO Donald Watts at his office in downtown Seattle
