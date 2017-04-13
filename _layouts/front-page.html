@@ -11,7 +11,6 @@ layout: default
                     <div class="col-4-12 no-padding">
                         <h2 class="black">{{story.title}}</h2>
                         <h6>{{story.subtitle}}</h6>
-                        <p>An original production by The Athletes Playbook</p>
                         <p class="button red"><a href="/story/{{story.title | slugify}}">View more</a></p>
                     </div>
                 </div>
@@ -31,9 +30,9 @@ layout: default
                 <div class="overlay-content">
                     <p class="caps">{{story.category}}</p>
                     <h4>{{story.title}}</h4>
-                    <h2 class="t-font-smaller black">{{story.author}}</h2>
                     <p>{{story.subtitle}}</p>
                     <a href="/story/{{story.title | slugify}}"><p class="color-red">Read full story</p></a>
+                    {% if story.author %}<p class="t-font-smaller black">by {{story.author}}</p>{% endif %}
                 </div>
             </div>
         </div>
@@ -104,7 +103,7 @@ layout: default
         <h3 class="center-text no-margin-top">From the Playbook</h3>
         {% for playbook in site.data.contentful.spaces.proddata.playbook %}
             {% if playbook.isFeatured == true %}
-
+            <a href="/playbook/{{playbook.title | slugify }}">
                 <div class="col-1-1">
                     <div class="playbook-img" style="background-image: url('{{playbook.image.url}}');"></div>
                     <div class="playbook-content">
@@ -113,6 +112,7 @@ layout: default
                         <p>{{playbook.blurb}}</p>
                     </div>
                 </div>
+            </a>
 
             {% endif %}
         {% endfor %}
@@ -123,6 +123,7 @@ layout: default
             {% for playbook in sorted_playbooks %}
                 {% if playbook.isFeatured != true %}
 
+            <a href="/playbook/{{playbook.title | slugify }}">
                 <div class="col-1-2 tablet-col-1-2">
                     <div class="playbook-img" style="background-image: url('{{playbook.image.url}}');"></div>
                     <div class="playbook-content">
@@ -131,12 +132,13 @@ layout: default
                         <p class="small">{{playbook.author}}</p>
                     </div>
                 </div>
+            </a>
 
                 {%endif%}
             {% endfor %}
         <div style="clear:both;"></div>
     </div>
-    <div class="center-text"><p class="button red"><a href="">Start your own playbook</a></p></div>
+    <div class="center-text"><p class="button red"><a href="/coming-soon/">Start your own playbook</a></p></div>
 </section>
 <section>
     <div class="partners">

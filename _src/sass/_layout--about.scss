@@ -49,7 +49,7 @@
 		margin-top: 0;
     	margin-bottom: 2em;
 	}
-	.col-4-12 .lead-shot {
+	.col-3-12 .lead-shot {
 		width: 150px;
 		height: 140px;
 		background-size: cover;
@@ -57,7 +57,7 @@
 		background-position: center;
 	}
 	@media screen and #{$brk-tablet-min} and #{$brk-wide} {
-		.col-4-12 .lead-shot {
+		.col-3-12 .lead-shot {
 			margin: 0 auto;
 		}
 	}
@@ -65,7 +65,7 @@
 		.grid {
 			padding: 20px;
 		}
-		.col-4-12 .lead-shot {
+		.col-3-12 .lead-shot {
 			float: none !important;
     		display: block;
 		}

@@ -27,18 +27,20 @@ defaults:
 
 contentful:
   preview: No 
-  production_access_token: 72540f74ced35d002b0589a2b91705f71c93f19fc9666ed53dae5563fe68dddd
-  preview_access_token: 8ab9792949655b957d6cec93ab73dd33c3d8adf3ab59ff98622cff937ed5f308
-  space: efl6n0ctkspd
+  production_access_token: TAC_CONTENTFUL_ACCESS_TOKEN
+  preview_access_token: TAC_PREVIEW_TOKEN
+  space: TAC_CONTENTFUL_SPACE_ID
   content_types:
    - "story"
+   - "playbook"
   spaces:
     - proddata: # Jekyll _data folder identifier - Required
-        space: efl6n0ctkspd        # Required
-        access_token: 72540f74ced35d002b0589a2b91705f71c93f19fc9666ed53dae5563fe68dddd # Required
+        space: TAC_CONTENTFUL_SPACE_ID        # Required
+        access_token: TAC_CONTENTFUL_ACCESS_TOKEN # Required
         cda_query:                 # Optional
           include: 2
           limit: 100
         content_types:             # Optional
          cat: story
+         cat: playbook
  

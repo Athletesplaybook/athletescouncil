@@ -801,6 +801,7 @@ footer {
 .homepage .each-news, .category-page .each-news {
   position: relative;
   background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(107, 107, 107, 0.3);
   margin: 20px 20px 0 0;
   width: 100%; }
   .homepage .each-news .caption h4, .category-page .each-news .caption h4 {
@@ -932,10 +933,6 @@ footer {
     width: 100%; }
     .story-bar .story-item:first-of-type .each-news, .story-bar .story-item:nth-of-type(4) .each-news {
       height: 320px; }
-  .story-bar .story-item:not(:nth-of-type(2)) {
-    padding: 0; }
-  .story-bar .story-item:nth-of-type(2) {
-    padding-right: 10px; }
   .story-bar .story-item:nth-of-type(3) {
     padding-left: 10px; }
   .story-bar .story-item .each-news {
@@ -951,12 +948,17 @@ footer {
 .button.tag {
   border: 1px solid; }
 
-.each-quote img {
-  margin: 0 auto;
-  max-width: 300px; }
-  @media screen and (max-width: 1023px) {
-    .each-quote img {
-      max-width: 100px; } }
+.each-quote {
+  height: 300px; }
+  .each-quote h5 {
+    font-size: 22px; }
+  .each-quote img {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 200px; }
+    @media screen and (max-width: 1023px) {
+      .each-quote img {
+        max-width: 100px; } }
 
 .playbook-container h4 {
   margin: 10px 0;
@@ -992,7 +994,8 @@ footer {
   margin-top: 4em; }
 
 .sliderQuotes .slick-next {
-  right: -27px !important; }
+  right: -27px !important;
+  top: 35%; }
   .sliderQuotes .slick-next:before {
     background-image: url("../assets/img/next-red.svg");
     color: transparent !important;
@@ -1000,6 +1003,7 @@ footer {
     opacity: 1; }
 .sliderQuotes .slick-prev {
   left: -43px !important;
+  top: 35%;
   z-index: 99; }
   .sliderQuotes .slick-prev:before {
     margin-left: 0 !important;
@@ -1053,6 +1057,19 @@ footer {
   color: #ffffff; }
   #accordeon li.current a {
     color: #ffffff; }
+
+.playbook-container a {
+  color: #000; }
+
+.button a {
+  color: #fff; }
+
+.fact-box {
+  background: #f2f2f2;
+  padding: 5px 40px; }
+
+.full-img {
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.3); }
 
 .sigle-story-content {
   padding: 0 1em; }
@@ -1164,14 +1181,14 @@ header .story h2, header .story h6 {
 .leads-all h3 {
   margin-top: 0;
   margin-bottom: 2em; }
-.leads-all .col-4-12 .lead-shot {
+.leads-all .col-3-12 .lead-shot {
   width: 150px;
   height: 140px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .leads-all .col-4-12 .lead-shot {
+  .leads-all .col-3-12 .lead-shot {
     margin: 0 auto; } }
 @media screen and (max-width: 1023px) {
   .leads-all .grid {

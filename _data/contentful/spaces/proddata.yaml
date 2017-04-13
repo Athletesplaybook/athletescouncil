@@ -1,207 +1,54 @@
 ---
-playbook:
+partnerLogo:
 - sys:
-    id: 1K7D5VCjMgSkew8cYsOYk8
-  title: Playbook 3
-  order: 3
-  category: Category
-  blurb: Blurb
-  image:
-    title: playbook3
+    id: 46S7SgiGU0aOyyqas0uqyY
+  name: Rooy
+  partnerLogo:
+    title: logo6
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/tzv5Y1uVpIASS6AGSEAAk/04cf1caff1fa4085aca17846cb894a24/playbook3.jpg
-  author: Author 3
+    url: //images.contentful.com/efl6n0ctkspd/O5PLPc5Ca4qw4qsIGwCOy/7bd1afc615f2956cceb63280b91caa2b/logo6.png
+  order: 6
 - sys:
-    id: 7i4lrGoKtioeGukQGWcY2q
-  title: Playbook 1
-  order: 0
-  category: Category 1
-  blurb: Blurb lorem ipsum
-  image:
-    title: playbook2
+    id: 2LWpwu6AtOGuGmw2UsOGiE
+  name: Augmenty
+  partnerLogo:
+    title: logo1
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/2nC3eAFcgcESuyeM4Yma4M/773adf33a14a4835f590c1bcb15723db/playbook2.jpg
-  author: Scot Bolsinger
-- sys:
-    id: tzO0M2T06yGUwIMECiGeG
-  title: Playbook 2
-  isFeatured: true
+    url: //images.contentful.com/efl6n0ctkspd/3wAKQ0zSikyMwQUYI4CmWM/79149b3fe3d43bef9a8569507122daf1/logo1.png
   order: 1
-  category: Category 2
-  blurb: Blurb lorem ipsum
-  image:
-    title: playbook
+- sys:
+    id: 7hofTR75HGUuoeC2WaS4sU
+  name: StoryWorld
+  partnerLogo:
+    title: logo5
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/3cVJp3cc00UeKm6mQ8G4YE/f3329642d5eeb9732e9c77dd598725cd/playbook.jpg
-  author: Scot Bolsinger
+    url: //images.contentful.com/efl6n0ctkspd/gmtc5qMrPqYqSGOUWGcYE/a439924c296bd6451b41471191505b7b/logo5.png
+  order: 5
+- sys:
+    id: 3o9dNjPKPKSgCAsAaaA66c
+  name: Vicarious
+  partnerLogo:
+    title: logo4
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/6URond4TRu28UOMgseAQ08/b17fadea5da9396d7dc1d4ca9ae1842d/logo4.png
+  order: 4
+- sys:
+    id: 3d3XQczvYAoGCAKMG4u0ym
+  name: ProAthlete
+  partnerLogo:
+    title: logo2
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3DiKvOXY64AQ42UAaqOmQk/6cdeebcfafb538a734d04c0c7452a566/logo2.png
+  order: 2
+- sys:
+    id: 4j1LcR2qzKwIQsGmQkGU0Q
+  name: Fanisko
+  partnerLogo:
+    title: Fanisko
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/mlpWefy4o0gwk60GYKMC2/e0a31bb8d63bc725112ff3bf529e7bff/logo3.png
+  order: 3
 story:
-- sys:
-    id: 6SZERFPb9uAe6qKEuikK2Y
-  title: 'Mighty Ruthie: Still Leaping Life’s Fences'
-  subtitle: 'How a fence in rural Mississippi catapulted a little girl into a 2-time
-    Olympic champion '
-  isTopStory: false
-  heroImage:
-    title: Lenny Wilkens
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/781c47ddbe870c87efd0c59bd0bfe096/Coach_Lenny_Wilkens_transparent_background.png
-  contentAboveNewsletterLink: "> I grew up jumping fences and climbing trees. It was
-    that outdoor lifestyle in the country called ‘country feet.' -- Ruthie Bolton,
-    WNBA star, Olympian\n\nRuth Bolton rode the bus from her country home in Mississippi
-    eight hours to the campus of Auburn University wondering if she would make the
-    basketball squad. Her superstar sister, Mae Ola, had been flown there two years
-    earlier on a private jet. \n\n“I was in a state of shock,” Ruth said about the
-    paradigm shift she experienced walking onto the Auburn campus. “I felt like my
-    high school had not prepared me.”\n\nRuth work hard and made the team and eventually
-    set school records. She obtained tutors to help her overcome the academic deficits
-    she faced. Then she excelled and made All Academic SEC two years straight.\n\nA
-    few years later, Ruth was traveling on her own dime yet again, this time to try
-    out for the US Womens National Basketball team. She wasn’t recruited or invited.
-    She just felt called to go and compete against more than 100 players who got the
-    call that passed her over. Again, she made the team and helped them achieve a
-    record-setting 60-0 perfect season. That led to her gold medal in the 1996 Olympics.
-    Ruth returned for the 2000 Olympics Women’s Basketball Team and set a record for
-    the most 3-pointers in a game, again helping the team win gold. After the Olympics,
-    Ruth was recruited to play with the WNBA’s Sacramento Monarchs and became their
-    first superstar player. "
-  contentBelowNewsletter: "Today, Ruth Bolton’s jersey is retired and she enjoys the
-    honor of being inducted into the basketball Hall of Fame. She travels the country
-    telling her story of facing adversity on and off the court, which includes dealing
-    with domestic violence, and overcoming it all. She traces her internal compass
-    and determination back to her roots in the country.\n\n### Country feet\nAt age
-    13, little Alice Ruth Bolton became an unlikely champion. Born the 16th child
-    of 20 to Reverend Linwood Bolton and his wife, Leola, “Ruthie” was raised in rural
-    Mississippi on 10 acres of farm land. She spent much of her childhood doing rigorous
-    chores on the farm, attending church where her dad was the Baptist preacher, and
-    chasing after her many siblings in a tight-knit family. She wasn’t the tallest,
-    fastest or most athletic in her family. But she was the most determined. And she
-    would demonstrate that faithful determination to overcome challenges, time and
-    time again, throughout her life.\n\n“I grew up jumping fences and climbing trees,”
-    Ruth said. “It was that outdoor lifestyle in the country called ‘country feet,’
-    when you do whatever you do with shoes or without shoes. That was the foundation
-    of everything I did after that.”\n\n### The Challenge\nDay after day, little Ruthie
-    had watched her siblings race through fields and leap one particularly tall fence
-    in a single bound. She raced with them but always elected to go around that fence.
-    It just seemed too tall for her small frame to clear. But one day she decided
-    to no longer avoid the challenge. On that day, little Ruthie felt the heart of
-    a champion beating inside of her as she landed on the other side of that fence.
-    It was that day she believes she became an Olympic champion, a feat she would
-    achieve years later against incredible odds.\n\nMore challenges would follow to
-    test her will, her athleticism and her faith, which remains the cornerstone of
-    her rock-solid determination to overcome every obstacle that life throws her way.
-    Today, at age 49, “Mighty Ruthie” proudly responds to the nickname she earned
-    from her family and basketball teammates who witnessed her tenacity and undeterred
-    determination to succeed. \n"
-  category: Life
-- sys:
-    id: 1dpW9jvTUY0GsguW64wYEu
-  title: Small kid from Big Apple wins it all
-  subtitle: Lenny Wilkens scrapped his way from Brooklyn street games to the NBA Hall
-    of Fame.
-  author: LENNY JENKINS
-  isFirstStoryOnFrontPage: false
-  isTopStory: true
-  heroImage:
-    title: Lenny Wilkens
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/781c47ddbe870c87efd0c59bd0bfe096/Coach_Lenny_Wilkens_transparent_background.png
-  contentAboveNewsletterLink: "> Growing up in Brooklyn, we played a lot of ball.
-    --Lenny Wilkens, Hall of Famer \n\nAs NBA Champion and Hall of Famer Lenny Wilkens
-    tells stories of his Brooklyn youth, he’s not just talking about basketball. That
-    came later. In those early years, the man who would coach more NBA games as a
-    head coach than anyone else, played streetball games to sharpen his athletic skills,
-    including the famous Stickball where kids like him imagined being their role model,
-    Brooklyn Dodger Jackie Robinson.\n\nWilkens says Robinson conducted himself with
-    class and confidence, undeterred by the obstacles ahead of him. \n\n“I thought
-    to myself, I want to think like that, I want to be like that. Little did I know
-    at that time it would lead me to basketball,” he says.\n\n### Unparalled career\n\nWilkens,
-    79, has achieved a trendsetting level of greatness in basketball that compares
-    to his childhood idol. Wilkens, a 13-time all star, won a championship as a coach
-    of the 1979 Seattle SuperSonics. In 1969, just three years after Bill Russell
-    broke the color barrier to become the first black coach of the NBA, Wilkens followed
-    by becoming a player/coach of the SuperSonics. \n\n“We were so close to training
-    camp when the approached me and I thought, what the heck, I had nothing to lose
-    I’ll try it. Once I saw I had success at that and I can do it, there’s a whole
-    new career waiting there for you to be a coach.”\n\nThe move may have shortened
-    his all-star career but it launched a coaching career that resulted in Wilkens
-    coaching more games than any other NBA coach in history."
-  contentBelowNewsletter: "In 1993 he was named coach of the year. He was elected
-    to the Naismith Memorial Basketball Hall of Fame a staggering three times (as
-    a player, coach and an Olympian). Despite this illustruious career, Wilkens is
-    often overlooked in discussions of all time basketball greats. But an ESPN columnist
-    pointed out toward the end of Wilkens coaching career, nobody has done more with
-    less.\n\n“The only top-50 player Wilkens has coached (except for Bill Walton through
-    two injury-plagued half seasons at the beginning of his career) was Lenny Wilkens.
-    Wilkens is the all-time coaching wins leader without ever coaching a Hall of Fame
-    player in his prime or at his best. It may be the most remarkable record in sports,”
-    the column stated.\n\nAll totaled, Wilkens has nearly a half a century of experiences
-    that offer an unmatched depth of experience to this generation of rising basketball
-    stars.\n\n“Coach is a true inspiration one of my best friends and mentors ever
-    who was my first coach in the NBA.” Athletes Playbook CEO and 17-year veteran
-    of the NBA James Donaldson said. “He has seen and done it all. When he speaks
-    we all listen.”\n\n### The next challenge\n\nWilkens’ diverse life continues to
-    evolve. Though he’s unlikely to ever coach again, he doesn’t rule it out. He instead
-    has launched yet another career in business and philanthropy. As noted in the
-    New York Times, “Wilkens sits on the boards of the Institute of Human Virology,
-    a bank in Washington state and his own foundation, which benefits a children's
-    health clinic in Seattle.”  It’s all about making an impression on the generations
-    coming behind him, just as Jackie Robinson once made on him and other kids from
-    the hard streets of Brooklyn. \n\n“I’m all about young people. They’re tomorrow’s
-    doctors, lawyers, politicians. They’re our future,” Wilkens said. “Having a bond
-    with young athletes, letting them know they can be successful--there’s nothing
-    greater than giving back to your community. They were the people that supported
-    you.”\n\nAnd one of hs constant messages to up-and-coming young athletes: Dream
-    big.\n\n“Nothing wrong with dreaming, but dream big dreams, but expand it. Not
-    everybody’s going to have a great, long career. So expand it,” Wilkens says. “One
-    thing about sports is it teaches you to make decisions. I don’t care if you are
-    playing ping pong, you have to make decisions.”\n\nMaking the right decisions
-    on and off the court can make all the difference."
-  category: Life
-- sys:
-    id: 6UJSmmZOUMOsyuue8UwSoy
-  title: Former Olympic training ground opens to elite athletes
-  subtitle: Athletes Playbook discovers hidden home for world’s best competitors
-  isFirstStoryOnFrontPage: false
-  isTopStory: false
-  heroImage:
-    title: Chula Vista
-    description: Athletes Playbook team at the Chula Vista training center
-    url: //images.contentful.com/efl6n0ctkspd/2ev17Z6J24GuQY6QS6yEqC/730b3baf0e04b6ee67bc750abe1b7fee/20170315_104922.jpg
-  contentAboveNewsletterLink: "CHULA VISTA – It was once the home of the Olympic elite.
-    In January 2017, the Olympic Committee and the City of Chula Vista finally completed
-    a deal (started in 2014) to transfer one of the world’s best athletic training
-    facilities into the control of the city. \nWhen James Donaldson was invited to
-    bring his leadership team at the Athletes Playbook to visit the former Olympic
-    Training Center in Chula Vista, CA in mid-March, he discovered a 155-acre reserved
-    landscape where the world’s best athletes train in relative obscurity protected
-    by 24-hour security. The newly named Chula Vista Elite Athlete Training Center
-    (CVTC) sits high on a hill overlooking the Lower Otay Lake, a mere 30-minute drive
-    southeast of San Diego. \nThe lake is a 137-foot deep fresh water reservoir serving
-    southern California. It is controlled by a dam originally built in 1897 and rebuilt
-    in 1918. Known for its world class bass fishing, scenic parks and trails, Otay
-    Lake had also been the hidden home for the former Olympic Training Center for
-    more than two decades. Since 1995, at least 42 medals can be attributed to this
-    center, which still accommodates the world’s best training facilities across a
-    wide variety of sports:\nArchery\nBeach Volleyball\nBMX \nCanoe/Kayak\nCycling\nField
-    Hockey\nRowing\nRugby\nSoccer\nTennis\nTrack & Field\nTriathlon\nCross-training
-    abilities for various winter sports\n\n\n"
-  contentBelowNewsletter: "The center is open and available to elite athletes from
-    across the nation and around the world. Olympians continue to train there along
-    with Para Olympians, college athletes and those training for the US national teams.
-    \nDonaldson, a 16-year NBA veteran and All Star, was surprised to be greeted at
-    the center by former NBA assistant coach Don Casey. Casey was Donaldson’s coach
-    during his stint with the Los Angeles Clippers.\nNicole Jones, Director of Visitor
-    Relations for Elite Athlete Services, provided Donaldson, Casey and the Athletes
-    Playbook team a guided tour of the massive training facility.\n“The center is
-    continuing to improve and expand,” Jones said. “Athletes from around the world
-    train here. We are one of only four centers like this in the nation.”\nJones said
-    the center is interested in building a basketball arena on its property, but those
-    aspirations are still in the embryonic stage. For now, world-class athletes outside
-    of the major sports of football, basketball and baseball will continue to claim
-    this elite training facility as their exclusive home.\n\n*Contact the Chula Vista
-    Elite Athlete Training Center for tour or training reservations:\nWebsite: www.easchulavista.com\n(619)
-    482-6221 office*"
-  category: Sports
 - sys:
     id: 3RdqYSelFKYMYICYc8eqA8
   title: Alabama home to 'high school Heisman' 2017 winner
@@ -277,6 +124,7 @@ story:
 
     ### Notable Past Awardees
     Previous award winners include Heisman Trophy Winner Jameis Winston (Tampa Bay Buccaneers), Rhodes Scholar Myron Rolle, Justin Blalock (former Atlanta Falcons), Gerald McCoy (Tampa Bay Buccaneers), Arrelious Benn (former Jacksonville Jaguars), Ted Ginn Jr (Carolina Panthers), Lorenzo Alexander (Oakland Raiders), Marcedes Lewis (Jacksonville Jaguars), Darnell Dinkins, (former New Orleans Saints), LaVar Arrington, (former Washington Redskins), Joseph Barksdale (San Diego Chargers), Grant Irons (former Oakland Raiders) and Ronald Curry (former Oakland Raiders).
+  category: Sports
 - sys:
     id: 67Cgu1c46soSoCeMwEQqWC
   title: 'Opinion: NFL sends ominous message to Kaepernick, student athletes'
@@ -346,12 +194,605 @@ story:
     and punished student athletes for emulating his protests. But Kaepernick and the
     students seeking to draw public attention to important issues are also sending
     a message. \n\nIs there anyone listening?\n"
+  category: Life
+- sys:
+    id: 1dpW9jvTUY0GsguW64wYEu
+  title: Small kid from Big Apple wins it all
+  subtitle: Lenny Wilkens scrapped his way from Brooklyn street games to the NBA Hall
+    of Fame.
+  isFirstStoryOnFrontPage: false
+  isTopStory: true
+  heroImage:
+    title: Lenny Wilkens
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/4ucVsut2pWgUIMM8mM0W22/781c47ddbe870c87efd0c59bd0bfe096/Coach_Lenny_Wilkens_transparent_background.png
+  contentAboveNewsletterLink: "> Growing up in Brooklyn, we played a lot of ball.
+    --Lenny Wilkens, Hall of Famer \n\nAs NBA Champion and Hall of Famer Lenny Wilkens
+    tells stories of his Brooklyn youth, he’s not just talking about basketball. That
+    came later. In those early years, the man who would coach more NBA games as a
+    head coach than anyone else, played streetball games to sharpen his athletic skills,
+    including the famous Stickball where kids like him imagined being their role model,
+    Brooklyn Dodger Jackie Robinson.\n\nWilkens says Robinson conducted himself with
+    class and confidence, undeterred by the obstacles ahead of him. \n\n“I thought
+    to myself, I want to think like that, I want to be like that. Little did I know
+    at that time it would lead me to basketball,” he says.\n\n### Unparalled career\n\nWilkens,
+    79, has achieved a trendsetting level of greatness in basketball that compares
+    to his childhood idol. Wilkens, a 13-time all star, won a championship as a coach
+    of the 1979 Seattle SuperSonics. In 1969, just three years after Bill Russell
+    broke the color barrier to become the first black coach of the NBA, Wilkens followed
+    by becoming a player/coach of the SuperSonics. \n\n“We were so close to training
+    camp when the approached me and I thought, what the heck, I had nothing to lose
+    I’ll try it. Once I saw I had success at that and I can do it, there’s a whole
+    new career waiting there for you to be a coach.”\n\nThe move may have shortened
+    his all-star career but it launched a coaching career that resulted in Wilkens
+    coaching more games than any other NBA coach in history."
+  contentBelowNewsletter: "In 1993 he was named coach of the year. He was elected
+    to the Naismith Memorial Basketball Hall of Fame a staggering three times (as
+    a player, coach and an Olympian). Despite this illustruious career, Wilkens is
+    often overlooked in discussions of all time basketball greats. But an ESPN columnist
+    pointed out toward the end of Wilkens coaching career, nobody has done more with
+    less.\n\n\n\n“The only top-50 player Wilkens has coached (except for Bill Walton
+    through two injury-plagued half seasons at the beginning of his career) was Lenny
+    Wilkens. Wilkens is the all-time coaching wins leader without ever coaching a
+    Hall of Fame player in his prime or at his best. It may be the most remarkable
+    record in sports,” the column stated.\n\n\n\nAll totaled, Wilkens has nearly a
+    half a century of experiences that offer an unmatched depth of experience to this
+    generation of rising basketball stars.\n\n“Coach is a true inspiration one of
+    my best friends and mentors ever who was my first coach in the NBA.” Athletes
+    Playbook CEO and 17-year veteran of the NBA James Donaldson said. “He has seen
+    and done it all. When he speaks we all listen.”\n\n### The next challenge\n\nWilkens’
+    diverse life continues to evolve. Though he’s unlikely to ever coach again, he
+    doesn’t rule it out. He instead has launched yet another career in business and
+    philanthropy. As noted in the New York Times, “Wilkens sits on the boards of the
+    Institute of Human Virology, a bank in Washington state and his own foundation,
+    which benefits a children's health clinic in Seattle.”  It’s all about making
+    an impression on the generations coming behind him, just as Jackie Robinson once
+    made on him and other kids from the hard streets of Brooklyn. \n\n“I’m all about
+    young people. They’re tomorrow’s doctors, lawyers, politicians. They’re our future,”
+    Wilkens said. “Having a bond with young athletes, letting them know they can be
+    successful--there’s nothing greater than giving back to your community. They were
+    the people that supported you.”\n\nAnd one of hs constant messages to up-and-coming
+    young athletes: Dream big.\n\n“Nothing wrong with dreaming, but dream big dreams,
+    but expand it. Not everybody’s going to have a great, long career. So expand it,”
+    Wilkens says. “One thing about sports is it teaches you to make decisions. I don’t
+    care if you are playing ping pong, you have to make decisions.”\n\nMaking the
+    right decisions on and off the court can make all the difference."
+  category: Life
+- sys:
+    id: 2vFSva6VreokUesu22W8E6
+  title: Underdogs unite behind legacy of "Slick"
+  subtitle: Watts Basketball trains for success on and off the court
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: watts-pic
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/2PUXFugEXCwoe0o28EYeQk/a22e4161e8204150ac698caf1bdf5111/watts-pic.png
+  contentAboveNewsletterLink: "> I told Bill Russell, ‘If you can coach, I can play.’--
+    \"Slick\" Watts, NBA player\n\nDonald “Slick” Watts was the ultimate underdog.
+    \n\nHailing from rural Mississippi, the undersized point guard from Xavier went
+    undrafted. He got an interview with Hall of Famer Bill Russell, who was then the
+    coach of the Seattle Supersonics.\n\n“I told Bill Russell, ‘If you can coach,
+    I can play.’” Russell sent him a bus ticket to a lengthy tryout, Slick said. “After
+    62 guys and three months, I was the last one standing.”\n\nThe underdog went on
+    to a six-year career in the NBA. As a longtime member of the Seattle community,
+    Slick never stopped urging other underdogs to succeed.\n\n<iframe width=\"560\"
+    height=\"315\" src=\"https://www.youtube.com/embed/mMWpFV-C4ZI\" frameborder=\"0\"
+    allowfullscreen></iframe>\n\nI didn’t experience his playing days,” says son Donald
+    Watts Jr. “What I did experience was his dedication and his commitment to the
+    community. I got to see the impact he has had on people’s lives.”\n\n### Different
+    kind of underdog\n\nDonald’s career started in contrast to his father’s. In 1995
+    he was Washington’s high school consensus state player of the year. He then starred
+    at the University of Washington, leading the team twice into the final four. Only
+    then did Donald come to identify with his father’s underdog status. His pro career
+    was cut short by chronic fatigue syndrome. \n\nHe’d play well and earn a job but
+    after the grind of the season began, his body betrayed him. He played overseas
+    and in the NBA Development League. “It didn’t turn out like I’d have liked it
+    to,” he says, “but it was a great experience.” \n\nOnce Donald’s career wound
+    down, he and his father teamed up to launch Watts Basketball. \n\n“The brand of
+    Watts Basketball,” Donald said, “is about being an underdog, working hard, engaging
+    with people, believing in yourself, and no matter what the odds are, sitting down
+    making yourself a plan and attacking that plan with all your heart and your spirit
+    and your emotions and doing it in a way that engages people around you.”"
+  contentBelowNewsletter: "Once in business, Donald said his full appreciation for
+    the life lessons he learned in basketball flourished, a vision of his future that
+    first flourished during his final days in college.\n\n“I wasn’t really prepared
+    for college,” he said, “but once I figured it out and got my plan, I realized
+    it was made for me.”\n\n### A new image of success\n\nDonald is most proud of
+    earning a degree from UW despite early struggles in the classroom. Here he felt,
+    at times, like the ultimate underdog.\n\n“There’s a lack of confidence and self-esteem
+    in the classroom,” Donald said. “I feel like I was often in situation as a sportsman
+    and African-American male where that wasn’t an image we saw of ourselves. So I
+    didn’t understand my talents and gifts as it related to academics.”\n\nAll of
+    which helps explain the unique mission of Watts Basketball to spur underdogs to
+    greater success on and off the court. \n\n“We want to get our young people not
+    only about playing college basketball but earning a college degree and setting
+    themselves up through sports to be successful in life.”\n\nDonald has learned
+    to better manage his disease through acupuncture and healthy eating. He’s even
+    known to go back on the court from time to time, as noted in a Seattle Times flashback:
+    [Watts Jr.] participated in the pro-am league tournament and scored 45 points
+    to in a championship-game victory against a team that included Jamal Crawford,
+    Nate Robinson and Will Conroy.\n\n“I still have my game,” Donald said. “I can
+    still play ball, but only once a week.”\n\n### Son leads the way\n\nMost of what
+    Watts loved about the game of basketball is even more rewarding through business,
+    he said, like competition, camaraderie, coaching and touching people’s lives,
+    just as his father has tried to do in Seattle for decades. It’s also where the
+    son has surpassed even the large footsteps of his father.\n\n“A lot of people
+    would say I’m following in my father’s footsteps, but I’d say I’m leading the
+    way. When I played basketball I was very much following his footsteps, but now
+    in business he’s learning from me.”\n\nAs are hundreds of Seattle area underdogs
+    with big dreams of their own."
+- sys:
+    id: 3Yg9bO9BQcusggo0M0WKI2
+  title: '1-on-1: Seven footers, Mo B and James D, go head-to-head'
+  subtitle: Standout prep star leads on and off the court
+  isFirstStoryOnFrontPage: false
+  isTopStory: true
+  heroImage:
+    title: Mo Bamba - McDs
+    description: ''
+    url: //images.contentful.com/efl6n0ctkspd/3N7TC4XRviAKcA6uYEe6cM/a3ac94ef3c6041aefad9a73b25723ae6/Mo_Bamba_-_McDs.jpg
+  contentAboveNewsletterLink: "He speaks multiple languages, has traveled abroad and
+    studies environmental social justice, liberation theology and the history of modern
+    Africa. He’s Mohamed Bamba. He’s just 18 years old and still in high school. \n\n“Mo”
+    Bamba stands 6’11” and plays basketball as a power forward. His skill on the court
+    is as adept as his mind is in the classroom. He’s ranked No. 6 in the nation and
+    was selected as a McDonald’s All American. \n\nGreer Love has known Mo for nearly
+    a decade and served as his teacher, coach (4th and 5th grades) and mentor. With
+    the help of the school principal, Love started a basketball mentoring program
+    in 2005 called Locks Lions at PS208 in Harlem to help develop the physical and
+    mental skills of the students both on and off the court.\n\n\n“We decided there
+    was a good opportunity to start a basketball team but also have a dual academic
+    focus with it,” Love said. It was in an after school setting. Kids would come
+    at three o’clock and do study tables for an hour-and-a-half and then have basketball
+    practice.”\n\nThe seed planted by Love grew into collaboration with other schools
+    to develop a basketball league from these unique study sessions. Love says most
+    of the 10-12 students who were on that original team are now either seniors in
+    high school or college freshmen. Mo was one of Love’s original kids. The students
+    continue to remain in touch with one another as well as their coach. Mo benefited
+    from Love’s connection to James Donaldson."
+  contentBelowNewsletter: "“James (Donaldson) was very helpful in organizing a few
+    events he did over in China. We were there for Mo’s senior service project at
+    Westtown, a private school about an hour west of Philadelphia.”\nMo’s schedule
+    is extremely busy, from China to the McDonald’s All American tournament to the
+    Nike Hoop Summit and then on to the Jordan Brand Classic. James Donaldson caught
+    up with him for a few minutes during Mo’s visit to Portland on April 5. Watch.
+    \n\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/yLZFnm-SGl4\"
+    frameborder=\"0\" allowfullscreen></iframe"
+  category: Education
+- sys:
+    id: 6UJSmmZOUMOsyuue8UwSoy
+  title: Former Olympic training ground opens to elite athletes
+  subtitle: Athletes Playbook discovers hidden home for world’s best competitors
+  author: Mike Green
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: Chula Vista
+    description: Athletes Playbook team at the Chula Vista training center
+    url: //images.contentful.com/efl6n0ctkspd/2ev17Z6J24GuQY6QS6yEqC/81e42f067664ace397392da56623affe/20170315_104922.jpg
+  contentAboveNewsletterLink: "CHULA VISTA – It was once the home of the Olympic elite.
+    In January 2017, the Olympic Committee and the City of Chula Vista finally completed
+    a deal (started in 2014) to transfer one of the world’s best athletic training
+    facilities into the control of the city. \n\nWhen James Donaldson was invited
+    to bring his leadership team at the Athletes Playbook to visit the former Olympic
+    Training Center in Chula Vista, CA in mid-March, he discovered a 155-acre reserved
+    landscape where the world’s best athletes train in relative obscurity protected
+    by 24-hour security. The newly named Chula Vista Elite Athlete Training Center
+    (CVTC) sits high on a hill overlooking the Lower Otay Lake, a mere 30-minute drive
+    southeast of San Diego. \n\nThe lake is a 137-foot deep fresh water reservoir
+    serving southern California. It is controlled by a dam originally built in 1897
+    and rebuilt in 1918. Known for its world class bass fishing, scenic parks and
+    trails, Otay Lake had also been the hidden home for the former Olympic Training
+    Center for more than two decades. Since 1995, at least 42 medals can be attributed
+    to this center, which still accommodates the world’s best training facilities
+    across a wide variety of sports:\n- Archery\n- Beach Volleyball\n- BMX \n- Canoe/Kayak\n-
+    Cycling\n- Field Hockey\n- Rowing\n- Rugby\n- Soccer\n- Tennis\n- Track & Field\n-
+    Triathlon\n- Cross-training abilities for various winter sports\n\n\n"
+  contentBelowNewsletter: "The center is open and available to elite athletes from
+    across the nation and around the world. Olympians continue to train there along
+    with Para Olympians, college athletes and those training for the US national teams.
+    \n\nDonaldson, a 16-year NBA veteran and All Star, was surprised to be greeted
+    at the center by former NBA assistant coach Don Casey. Casey was Donaldson’s coach
+    during his stint with the Los Angeles Clippers.\nNicole Jones, Director of Visitor
+    Relations for Elite Athlete Services, provided Donaldson, Casey and the Athletes
+    Playbook team a guided tour of the massive training facility.\n\n“The center is
+    continuing to improve and expand,” Jones said. “Athletes from around the world
+    train here. We are one of only four centers like this in the nation.”\n\nJones
+    said the center is interested in building a basketball arena on its property,
+    but those aspirations are still in the embryonic stage. For now, world-class athletes
+    outside of the major sports of football, basketball and baseball will continue
+    to claim this elite training facility as their exclusive home.\n\n*Contact the
+    Chula Vista Elite Athlete Training Center for tour or training reservations:\nWebsite:
+    www.easchulavista.com\n(619) 482-6221 office*"
+  category: Sports
+- sys:
+    id: 6SZERFPb9uAe6qKEuikK2Y
+  title: 'Mighty Ruthie: Still Leaping Life’s Fences'
+  subtitle: 'How a fence in rural Mississippi catapulted a little girl into a 2-time
+    Olympic champion '
+  isTopStory: true
+  heroImage:
+    title: Mighty Ruthie pose
+    description: Ruthie Bolton
+    url: //images.contentful.com/efl6n0ctkspd/26d1paGSpOg6ukS6GSKouQ/2738d8e6177aeb4eeb3cad029f91d719/Mighty_Ruthie_pose.jpg
+  contentAboveNewsletterLink: "> I grew up jumping fences and climbing trees. It was
+    that outdoor lifestyle in the country called ‘country feet.' -- Ruthie Bolton,
+    WNBA star, Olympian\n\nRuth Bolton rode the bus from her country home in Mississippi
+    eight hours to the campus of Auburn University wondering if she would make the
+    basketball squad. Her superstar sister, Mae Ola, had been flown there two years
+    earlier on a private jet. \n\n“I was in a state of shock,” Ruth said about the
+    paradigm shift she experienced walking onto the Auburn campus. “I felt like my
+    high school had not prepared me.”\n\nRuth work hard and made the team and eventually
+    set school records. She obtained tutors to help her overcome the academic deficits
+    she faced. Then she excelled and made All Academic SEC two years straight.\n\n<iframe
+    width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/3d5oGQFGnHU\"
+    frameborder=\"0\" allowfullscreen></iframe>\n\nA few years later, Ruth was traveling
+    on her own dime yet again, this time to try out for the US Womens National Basketball
+    team. She wasn’t recruited or invited. She just felt called to go and compete
+    against more than 100 players who got the call that passed her over. Again, she
+    made the team and helped them achieve a record-setting 60-0 perfect season. That
+    led to her gold medal in the 1996 Olympics. Ruth returned for the 2000 Olympics
+    Women’s Basketball Team and set a record for the most 3-pointers in a game, again
+    helping the team win gold. After the Olympics, Ruth was recruited to play with
+    the WNBA’s Sacramento Monarchs and became their first superstar player. "
+  contentBelowNewsletter: "Today, Ruth Bolton’s jersey is retired and she enjoys the
+    honor of being inducted into the basketball Hall of Fame. She travels the country
+    telling her story of facing adversity on and off the court, which includes dealing
+    with domestic violence, and overcoming it all. She traces her internal compass
+    and determination back to her roots in the country.\n\n### Country feet\nAt age
+    13, little Alice Ruth Bolton became an unlikely champion. Born the 16th child
+    of 20 to Reverend Linwood Bolton and his wife, Leola, “Ruthie” was raised in rural
+    Mississippi on 10 acres of farm land. She spent much of her childhood doing rigorous
+    chores on the farm, attending church where her dad was the Baptist preacher, and
+    chasing after her many siblings in a tight-knit family. She wasn’t the tallest,
+    fastest or most athletic in her family. But she was the most determined. And she
+    would demonstrate that faithful determination to overcome challenges, time and
+    time again, throughout her life.\n\n“I grew up jumping fences and climbing trees,”
+    Ruth said. “It was that outdoor lifestyle in the country called ‘country feet,’
+    when you do whatever you do with shoes or without shoes. That was the foundation
+    of everything I did after that.”\n\n### The Challenge\nDay after day, little Ruthie
+    had watched her siblings race through fields and leap one particularly tall fence
+    in a single bound. She raced with them but always elected to go around that fence.
+    It just seemed too tall for her small frame to clear. But one day she decided
+    to no longer avoid the challenge. On that day, little Ruthie felt the heart of
+    a champion beating inside of her as she landed on the other side of that fence.
+    It was that day she believes she became an Olympic champion, a feat she would
+    achieve years later against incredible odds.\n\nMore challenges would follow to
+    test her will, her athleticism and her faith, which remains the cornerstone of
+    her rock-solid determination to overcome every obstacle that life throws her way.
+    Today, at age 49, “Mighty Ruthie” proudly responds to the nickname she earned
+    from her family and basketball teammates who witnessed her tenacity and undeterred
+    determination to succeed. \n"
+  category: Life
+- sys:
+    id: CAWZRwxZa8wi0wiMW6AcM
+  title: Myron Rolle’s exit strategy
+  subtitle: From the NFL to neurosurgeon
+  author: Mike Green
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: Myron Rolle - football to doctor
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/1VzwcRrfXKqeoyMagayQwu/722d982092b717c04dee6866b8e82fe6/Myron_Rolle_-_football_to_doctor.jpg
+  contentAboveNewsletterLink: "Myron Rolle wasn’t supposed to be a neurosurgeon. He
+    wasn’t supposed to be invited by Harvard Medical to join their team. He already
+    had a team. Throughout his life, Myron had teams and coaches. And all of them
+    told him how great he was and how great a football player he would be. He was
+    supposed to follow in the footsteps of his athletic family. Sports greatness was
+    his destiny. \n\nAnd that would be Myron’s story, if he had listened to conventional
+    sports wisdom that enveloped him throughout his career. The NFL would be his main
+    story if he had turned down the Rhodes Scholarship he earned through hard work
+    and a competitive spirit in the classroom. Myron’s story would be very different,
+    and maybe less remarkable, if he had turned down the opportunity to travel to
+    study abroad at Oxford and instead ran directly into the NFL. That decision to
+    study caused his draft stock to plummet. But Myron was preparing for life beyond
+    his playing days. \n\nThroughout his journey, Myron listened to the beating passion
+    of his heart, which yearned for something beyond sports … a career in medicine
+    that would define who he would become when he left the NFL. Myron prepared his
+    path with an exit strategy. When he exited college, he entered the NFL. When he
+    exited the NFL, he entered the field of medicine."
+  contentBelowNewsletter: "\nWatch Myron tell his story in his own words. \n\n<iframe
+    width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eil7E1ogDYg\"
+    frameborder=\"0\" allowfullscreen></iframe>"
+  category: Education
+- sys:
+    id: 6Ck64zLDjOMYkim0eE2M60
+  title: 'Athletes Journey: Build your dream team'
+  subtitle: Every athlete needs a supportive team to succeed in sports and life
+  author: Brandon Williams
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: Brandon Williams
+    description: Brandon Williams
+    url: //images.contentful.com/efl6n0ctkspd/4ERfbO1pCgUoa2A0QGkYOI/71047c3483b8a29d0298720619f6d939/Brandon_Williams.jpg
+  contentAboveNewsletterLink: "There will be a time when you, the student athlete,
+    will be on my side of the game.  The side where there aren’t any more cheerleaders,
+    pre-game meals or the early morning walk-through. Sooner or later your day will
+    arrive. The faster you realize this the faster you will be able to un-pause your
+    life and push play again.  \n\nOver the last few years I’ve realized that God
+    has had gigantic plans for me; He made a way in my life when I didn’t see a way
+    at all.\n\nLeaving the National Football League the way I did was one of the most
+    unexpected and traumatizing times of my life. But if that was what it took for
+    me to find my true passion and purpose in life, then it was the best thing that
+    ever happened to me. The journey I’ve been on, like most people, has had many
+    ups and downs. But there have always been very special people in my life to guide
+    and mold me into the man I am today. \n\n![Brandon Williams 49ers](//images.contentful.com/efl6n0ctkspd/1SEOaDSoBmmY46Kgca00Ci/c6f3fbf7e298df8fb0ea98bf1c08db06/Brandon_Williams_49ers.jpg)\n\nOne
+    of the most important things any athlete can do is to assemble the right team
+    around them. I know you’ve heard the saying, “teamwork makes the dream work.”
+    \ \n\nWell it’s true. Ask any CEO, entrepreneur, or business mogul and they will
+    all tell you the same thing. My team is the reason I’m here.  They aligned themselves
+    with people who are smarter than them, and who see and support the vision they
+    have. The concept is very simple. \n\nIn order to achieve one’s dream, you must
+    first build your team. The vision you have for yourself needs to be clearly defined.
+    Every player on your team must know your goal.And every player must know his or
+    her role in support of reaching that goal. \n\nGrowing up, my team was my family
+    and coaches.  My uncles, particularly, did so much for me through my high school
+    years Their goal was to make me the smartest, fastest and strongest student athlete
+    in the city of Saint Louis. They were always there for me when I needed them most.
+    They bought me food and football gear, took me to camps and drove me where I needed
+    to go. They gave me advice about school, girls, and life. My uncles were a major
+    part of the team that helped me become successful. \n\nSo my question to you is:
+    What is your dream, your vision? And who are the players on your team?\n\n\n*Brandon
+    Williams played in the NFL from X to Y with the TEAM(s). Today he is AAAA. Follow
+    Brandon on Twitter: @twitterhandle; Email: Brandon@email.com*\n"
+  category: Life
+- sys:
+    id: 29TimbDhbmW6QY2iwGwwcw
+  title: Magic at NBA All Star Tech Summit
+  subtitle: Focus on getting players off the sidelines in the game of business
+  author: Mike Green
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: NBA Tech Summit image
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/JbBvziwnoieGKCeCk4yIS/ed3923630a6af56b6ec564bde5a12bd7/NBA_Tech_Summit_image.jpg
+  contentAboveNewsletterLink: "When the NBA jumped into a tech conversation this February
+    with an all-star cast of characters, it focused on two things: all stars and all
+    conversation. There were no fast breaks, no sensational dunks, no cheerleaders
+    and certainly no trash-talking, face-painted, costume-wearing fans. \n\nNope,
+    just panels of celebrity names sharing their thoughts about the business of basketball,
+    technology, investing, entrepreneurship and consumerism. No showtime. No magic.
+    \n\nWait. There was Magic.\n\nThe half-day event in New Orleans featured recognizable
+    names in media, like CNN’s Wolf Blitzer and John King, and Ahmad Rashad of NBA
+    TV and Rachel Nichols of ESPN. Celebrity commentators, like Hall of Famers Charles
+    Barkley and Sue Bird participated alongside tech investment stars like Google’s
+    David Drummond and Shark Tank’s intrepid investor, Mark Cuban. Even Magic Johnson
+    and Nate Silver were there. This event had everyone. See their faces here.\n\nThe
+    panel presentations were on point, of course. They discussed the issues of: investing
+    in entrepreneurs, positioning players for direct-to-consumer engagement, cybersecurity,
+    social media, and intersections where technology is changing the sports universe. "
+  contentBelowNewsletter: "The event was an opportunity for schools in New Orleans
+    to notify their coaching staff, and coaches to inform their student athletes,
+    and parents to accompany their high school and/or college level athlete to an
+    insightful event where players could see and hear the machinery of the NBA gearing
+    up for the future.\n\nIt was an opportunity that most missed this year. Put it
+    on your calendars for the next. "
+  category: Wealth
+- sys:
+    id: 47RHhMKxkIO6cI6YawSkWu
+  title: Sports technology shifts view of what sports will be
+  subtitle: E-sports, new apps and a culture shift of exploding economy
+  isFirstStoryOnFrontPage: true
+  isTopStory: false
+  heroImage:
+    title: Unikrn1
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/FaRuODR9RYEyyEkK8oE0M/ec9858cc0dc546c8b2552b92f54c7c2a/IMG_2500.jpg
+  contentAboveNewsletterLink: "Maybe it all started with instant replay. Perhaps Atari’s
+    first baseball and basketball computer games get the credit. The origin is worthy
+    of a healthy debate on barstools anywhere in the world, much like debating who
+    the greatest pro quarterback of all time is. There is no right answer.\n\nWhere
+    the facts are utterly beyond dispute however is where this convergence of sports
+    and technology has come now, a point in the economic and entertainment landscape
+    that could soon dwarf all others professional “sports” as we might now understand
+    them. \n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eEp7qgt36EE\"
+    frameborder=\"0\" allowfullscreen></iframe>\n\nE-sport, as they are called, have
+    arrived. And with it, professional teams in a global market that generate multi-million
+    dollar purses for winners, university athletic scholarship and lucrative new startup
+    businesses. \n\n![ELEAGUE TOURNEY](//images.contentful.com/efl6n0ctkspd/28Fy4KYqbCOMMuu8oQQ2Ww/18f91a0233d2bbd7206b7ff2ec89be2a/ELEAGUE_TOURNEY.jpg)\n\nNewzoo,
+    a sports research found estimates “148 million ‘esports enthusiasts’ around the
+    globe. Newzoo estimates that 22% of American male millennials watch esports, putting
+    it virtually equal with baseball and hockey in terms of viewership among that
+    demographic,” Sports Illustrated reported in February. "
+  contentBelowNewsletter: "“It’s ridiculous,” says Unikrn, an online e-sports betting
+    company, CEO Rahul Sood of Seattle. “You can go to Madison Square Garden or Mercedes
+    Benz theater in Berlin and you’ll see they sell out the arena. When I saw how
+    big it grew, I was dumbfounded.” ”\n\nThe future of sports and the future of technology
+    is changing before our very eyes.\n\n\n### Betting on the need to bet\n\nUnikrn
+    is at the cusp of this great economic shift. Years ago Sood sold his first gaming
+    company to HP before he joined Microsoft. Three years ago he left that job to
+    launch Unikrn. He said the potential careers for athletes, technologists, entrepreneurs,
+    marketers and business graduates are tremendous. \n\n“I’ll give you an example,”
+    he says. “The NBA just announced they are doing their own league around e-sports.
+    Mark Cuban, one of our investors, is also the first owner to set up his own e-sports
+    team. Many universities are starting to offer scholarship around e-sports. There’s
+    a good reason for this. The top players who compete, there are smart kids.” \n\n\nSood
+    said the attraction of this startup is its unique place in the thriving new market
+    of sports technology. As fan of sports and gaming, e-sports provided the ultimate
+    thrill and business opportunity he said. He encourages athletes of all backgrounds
+    to consider this career path during their education. \n\n“It totally helps if
+    you have a sports background, especially when it comes to thinking about sports
+    and technology,” he said.\n\n\n### Fitness for the everyday athlete\n\nUnikrn
+    is one of many new startup companies within the sports technology sector. Many
+    target the everyday athlete or participant in the hopes of connecting them to
+    the passion of their sport (or e-sport). \n\nOnce such company based in Vancouver,
+    Brittish Columbia is the brainchild of airline pilot, Ursin Camenisch, founder
+    and CEO of SportyBuddy, Inc, the company that launched the 5F app. The app is
+    like a quai-dating service that seeks to connect people who want to work out with
+    others in their area. The name, 5F stands for Find Fit Friends for Free, Camenish
+    said. \n\n“It’s Tinder for sporting people. It’s not a dating app, but it is to
+    bring people together for sporting events,” he said.\n\nThe app offers meetups
+    with more than 100 different sports and four different skill sets. \n\nCamenish
+    said his motivation for the business comes from years as a pilot of medical planes.
+    Seeing so many people dealing with life or death situations, he realized many
+    were related to general lack of fitness and poor health. \n\n“people are suffering
+    and it costs a lot of money,” he said. “It doesn’t take much to live a healthier
+    life. I want to help people find a healthy lifestyle and build accountability
+    to get healthier.”\n\nThe technology of an app makes that accountability and partnership
+    for people looking to get more active that much easier, yet another innovation
+    at the convergence of sports and technology. \n\nLike Sood, Camenish sees sports
+    technology as a market with tremendous growth potential. \n\n“It’s exploding.
+    There are a lot of apps out there, but most are based on workouts, especially
+    seven-minute workouts, but mine went in a different direction.”\n\nExploding markets
+    bring with it all sorts of shifts, from cultural to economic to the way we even
+    think about the term “athlete.” As Bob Dylan sang, the times they are a changin.\n\n“The
+    median age for a major league baseball fan is 54 years old. So when you think
+    about it, every day a MLB fan dies, two e-sports fans are born,” Sood said.  "
+- sys:
+    id: 3BtCKGYEO4WMcIsQiYec6M
+  title: Avoid this signing day mistake
+  subtitle: For student athletes, deciding on a college requires more than choosing
+    a team
+  author: Bob Fulcomer
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: High School Signing Day
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/6UzrHzW11KqogEuOgiMiSw/ace6ee43e1ff7dc2db8217a5354b3f45/High_School_Signing_Day.jpg
+  contentAboveNewsletterLink: "Tragically, many student athletes focus only on trying
+    to get into a school that has a reputation for athletic programs. This critical
+    mistake is made even by some of the most gifted student athletes.  Prioritizing
+    the choice of which college sports team to play with not only limits degree choices,
+    it can also affect career options. \n\nThe fact that so many professional athletes
+    end up struggling to make a living is due largely to the misconception that they
+    will receive a quality education in a field that suits their interests regardless
+    of the college they choose. This isn’t necessarily true. Too often this important
+    issue takes a back seat to the hype of Signing Day, when high school recruits
+    commit to attending colleges they’ve chosen based on the sports team for which
+    they want to play. Unfortunately, the focus on talent recruitment for sports too
+    often overshadows the more critical issue of the student athlete’s opportunity
+    to receive a quality education. \n\nIt is education that will determine the life
+    course of most athletes. The chances of a student athlete being drafted by a professional
+    sports team are extremely low. For example, each year, more than one million youth
+    play football. And each year, the NFL draft chooses less than 300 new players.
+    Think about that pipeline: One million student athletes run into the football
+    funnel at one end, in various youth leagues and high schools each year, while
+    less than 300 will run out of it onto the professional fields on Sundays. In between,
+    there’s college. A simple math equation reveals the fallacy of the sports fantasy:
+    More than 99.5% of students playing football (and other sports) will not become
+    professional players.\n\n![CEOs infographic](//images.contentful.com/efl6n0ctkspd/3RjM62pk0w8gIU2SWQMYiK/c7cc1d0a4e86f4130fb6b162ccfac7d4/Copy_of_Athletes_as_CEOs_infographic.jpeg)\n\nStill,
+    those incredible odds against playing professionally aren’t any cause for an athlete
+    to give up their dream. Rather, those numbers strongly suggest there needs to
+    be an equal priority placed on the pursuit of a quality college education. Gifted
+    high school athletes are given an opportunity to pursue their career goals alongside
+    their sports goals. They should consider that on Signing Day."
+  contentBelowNewsletter: "Still, those incredible odds against playing professionally
+    aren’t any cause for an athlete to give up their dream. Rather, those numbers
+    strongly suggest there needs to be an equal priority placed on the pursuit of
+    a quality college education. Gifted high school athletes are given an opportunity
+    to pursue their career goals alongside their sports goals. They should consider
+    that on Signing Day.\n\nWith proper planning and assessment, along with hard work
+    invested in academic progress, student athletes can succeed not only in sports
+    but in life. Alternatively, high school athletes who only focus on their progress
+    in sports too often end up going to college majoring in something that they really
+    don’t want to do the rest of their life. \nEven for those few who are successfully
+    drafted by professional sports teams, these questions remain: \n- What do I do
+    when my pro career is over?\n- What do I do if I suffer a career-ending injury?
+    \n- What do I do if I don’t make the team or get cut?\n- What do I do if I don’t
+    receive a big contract? \n\nOn the flip side, there’s good news. Research shows
+    that 95% of Fortune 500 CEOs are former collegiate athletes. And most employers
+    believe athletes have the kind of attributes and personal traits they are looking
+    for. \n\nThere are so many careers to consider, both inside and outside of sports,
+    that student athletes should carefully consider their interests in a major when
+    choosing a school, if for no other reason than as a backup plan to a career as
+    a professional athlete. Many professional athletes have initially attended community
+    college or junior college to get started when their high school academic record
+    was less than stellar.  \n\nStudents headed to college should remember that the
+    key to a successful education is making sure they choose the right degree field
+    for them. It is also critical that the student attend the right school for that
+    major; and not every major is taught at every college. If a student places their
+    primary focus on getting a quality education, sports will appropriately fit into
+    their decision.\n\n* Bob Fulcomer is Vice President of Education for the Heartland
+    Institute of Financial Education (HIFE).   Bob has been working in higher education
+    more than 25 years.  He  also worked in the U.S. Air Force as a Superintendent
+    of Education. Supported by a consortium of colleges and universities across the
+    United States, HIFE specializes in financial wellness education courses for companies
+    and their employees. Hife-usa.org*\n\n"
+- sys:
+    id: 4M9VYvnUicW2wAGygWYGkM
+  title: 'On Competitiveness: Fostering competitive spirit'
+  subtitle: Competition at the heart of success in sports and life
+  author: Johnathan Holifield
+  isFirstStoryOnFrontPage: false
+  isTopStory: false
+  heroImage:
+    title: EPM 6847
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/15Q8TKE2VWw4quIUKCOEqg/b6bd6aa8f24c4e9c8e79b2cd05789274/EPM_6847.jpg
+  contentAboveNewsletterLink: "> Our will to compete is the dominant factor in our
+    individual and collective success as current and former athletes. --Johnathan
+    Holified, Former NFL Running Back\n\nI believe that none of us achieve anything
+    without first consciously deciding to compete for it – we never have and never
+    will.\n \nIt could be said that I have had an uncommon career because I have chosen
+    a less travelled road. Mine was not a likely path: from captain of a winless high
+    school football team, to walk-on athlete at a major college, to earning a scholarship,
+    to being elected both as university student leader and football team captain,
+    to the NFL and the Super Bowl, to civil rights lawyer, to a leader of historic
+    and venerable community organizations, to a leader of innovation and economic
+    competitiveness organizations.\n\nWhat ties together these experiences is the
+    good fortune of being afforded opportunities to grow into leadership roles at
+    almost every step along the way. I’ve learned lots of individual, organizational,
+    professional and community leadership lessons codified into an enduring message:
+    competition is the driving determinant of achievement. And our will to compete
+    is the dominant factor in our individual and collective success as current and
+    former athletes.\n \n### The Challenge\nMany highly competitive athletes who achieve
+    great heights in our respective sport, fail to reach similar heights of success
+    in the classroom and satisfaction in our personal, professional and occupational
+    lives when our careers are over. The failure of many athletes to convert the winning
+    character traits born of athletic competition into the personal qualities that
+    favorably position us in academic environments and for life after sports is a
+    national tragedy.\n \nIt’s time to disrupt the approach to athlete development.\n
+    \n### Breakthrough Opportunity\nWe have an opportunity to provide breakthrough
+    leadership in athlete development by nationally advocating for a system of sports
+    development around the foundation of competitive spirit conversion. We can lead
+    the way to support creation of the first comprehensive system to help athletes
+    – from high school to college to professional to post-professional – convert perhaps
+    our greatest asset, our competitiveness and will to compete, into academic success
+    and lifelong personal, professional and occupational satisfaction."
+  contentBelowNewsletter: "### Visionary Advocacy\nCompetitive spirit conversion can
+    be a comprehensive, visionary athlete development system, building on incumbent
+    athlete development programs that exist in high schools, colleges and professional
+    leagues. However, what can distinguish a comprehensive system to foster competitive
+    spirit from traditional athlete development programs is an approach that identifies
+    and cultivates athletes’ instinctive and demonstrated competitive mettle and helps
+    them convert it into a positive force for achievement in the classroom and throughout
+    life.\n \nIn other words, generally, athletes make sense of the world through
+    competition. We are proficient at recognizing facts and conditions and successfully
+    exerting our will to overcome and achieve.\n \nHowever, many athletes fail in
+    the conversion of that competitiveness from a necessary trait on the field, court,
+    track or diamond into a useful (and necessary) trait in other important areas
+    of our lives.\n \nBy helping athletes identify and understand the personal aptitude
+    and qualities that distinguish them in their sport and equipping them with the
+    tools and skills necessary to convert those assets into the kinds of personal
+    attributes that are needed to enjoy a successful academic career and a fruitful,
+    satisfying life after sports, a codified system of competitive spirit conversion
+    can emerge as a breakthrough national model.\n\n### Competitiveness as Intelligence\nWith
+    this bold stroke, together, we could be the first in American sports history to
+    recognize that competitiveness is a form of intelligence that should be intentionally
+    cultivated and support development of a comprehensive system around converting
+    “athletic competitive intelligence” into “academic and life competitive intelligence.”\n
+    \nMany would likely agree that competitiveness, when properly focused and developed,
+    could be the greatest equalizing asset a person can hold. The willingness to show-up
+    for class and life, put in the proverbial “gym work” in every aspect of one’s
+    being and succeed regardless of the odds are among the most powerful of personal
+    assets and a hallmark of winning athletes and well-adjusted, satisfied and successful
+    people.\n \n*Johnathan Holifield is a former NFL runningback (Cincinnati Bengals)
+    and author of The Future Economy and Inclusive Competitiveness. He is a renowned
+    speaker and national consultant on developing inclusive and competitive economic
+    strategies, frameworks and systems that empower communities and regions. Twitter:
+    @TheTrimTabber.*\n"
+  category: Wealth
 - sys:
     id: 5YPyA6G5NuakEY8CGIAmGK
   title: 'Watts Basketball: Gamechangers for life'
   subtitle: Agony and thrill of Sweet 16 propels Watts’ vision
-  isFirstStoryOnFrontPage: true
-  isTopStory: false
+  isFirstStoryOnFrontPage: false
+  isTopStory: true
   heroImage:
     title: Donald Watts
     description: Watts Basketball CEO Donald Watts at his office in downtown Seattle
@@ -363,14 +804,16 @@ story:
     screamed the importance of the call.\n\n“Donald Watts… for the three… got it!”
     the announcer said. “Washington leads for the first time in the game.”\n\nWatts
     had carried the team all year to get to this moment, with a one-point lead and
-    the chance to move to the Elite 8. \n\n“I still think about that at times,” Watts
-    says with a wry laugh. “There’s 8, then 4, then 2, then 1…” \n\nOnly not for UW.
-    Three desperate UConn shots went up in the final 10 seconds. The last one, shot
-    by future NBA player Rip Hamilton, hit nothing but net and crushed the hopes of
-    Watts and his the UW basketball team. \n\n“We talk about gamechangers for life,”
-    Watts said about Watts Basketball, the coaching business he and his father, former
-    Seattle Supersonic Point Guard Donald “Slick” Watts, founded. “That games change
-    my life and the lives of everyone in it, winners and losers.” \n"
+    the chance to move to the Elite 8. \n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/siWTD6Ryils\"
+    frameborder=\"0\" allowfullscreen></iframe>\n\n“I still think about that at times,”
+    Watts says with a wry laugh. “The Sweet 16. But there’s 8, then 4, then 2, then
+    1…” \n\nOnly not for UW. Three desperate UConn shots went up in the final 10 seconds.
+    The last one, shot by future NBA player Rip Hamilton, hit nothing but net and
+    crushed the hopes of Watts and his the UW basketball team. \n\n“We talk about
+    gamechangers for life,” Watts said about Watts Basketball, the coaching business
+    he and his father, former Seattle Supersonic Point Guard Donald “Slick” Watts,
+    founded. “That games change my life and the lives of everyone in it, winners and
+    losers.” \n"
   contentBelowNewsletter: "### Gamechangers\n\nWatts had spent the season struggling
     with an autoimmune disease that robbed of him of the energy needed to live up
     to the pre-season hype as one of the country’s leading players. In the early season
@@ -407,126 +850,297 @@ story:
     really life prep.” "
   category: Education
 - sys:
-    id: 2vFSva6VreokUesu22W8E6
-  title: Underdogs unite
-  subtitle: Watts Basketball trains for success on and off the court
+    id: 6iINQwFifKoIKIyq2cuKqM
+  title: Small warrior trains for big battle
+  subtitle: MMA amateur Ericka Ketchum prepares for pro career opening fight
+  author: Mike Green
+  isFirstStoryOnFrontPage: false
   isTopStory: false
   heroImage:
-    title: watts-pic
+    title: Ericka Ketchum trains 2
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/2PUXFugEXCwoe0o28EYeQk/1b8eb12fcfd012008bd3287023351161/watts-pic.png
-  contentAboveNewsletterLink: "> I told Bill Russell, ‘If you can coach, I can play.’--
-    \"Slick\" Watts, NBA player\n\nDonald “Slick” Watts was the ultimate underdog.
-    \n\nHailing from rural Mississippi, the undersized point guard from Xavier went
-    undrafted. He got an interview with Hall of Famer Bill Russell, who was then the
-    coach of the Seattle Supersonics.\n\n“I told Bill Russell, ‘If you can coach,
-    I can play.’” Russell sent him a bus ticket to a lengthy tryout, Slick said. “After
-    62 guys and three months, I was the last one standing.”\n\nThe underdog went on
-    to a six-year career in the NBA. As a longtime member of the Seattle community,
-    Slick never stopped urging other underdogs to succeed.\n\nI didn’t experience
-    his playing days,” says son Donald Watts Jr. “What I did experience was his dedication
-    and his commitment to the community. I got to see the impact he has had on people’s
-    lives.”\n\n### Different kind of underdog\n\nDonald’s career started in contrast
-    to his father’s. In 1995 he was Washington’s high school consensus state player
-    of the year. He then starred at the University of Washington, leading the team
-    twice into the final four. Only then did Donald come to identify with his father’s
-    underdog status. His pro career was cut short by chronic fatigue syndrome. \n\nHe’d
-    play well and earn a job but after the grind of the season began, his body betrayed
-    him. He played overseas and in the NBA Development League. “It didn’t turn out
-    like I’d have liked it to,” he says, “but it was a great experience.” \n\nOnce
-    Donald’s career wound down, he and his father teamed up to launch Watts Basketball.
-    \n\n“The brand of Watts Basketball,” Donald said, “is about being an underdog,
-    working hard, engaging with people, believing in yourself, and no matter what
-    the odds are, sitting down making yourself a plan and attacking that plan with
-    all your heart and your spirit and your emotions and doing it in a way that engages
-    people around you.”"
-  contentBelowNewsletter: "Once in business, Donald said his full appreciation for
-    the life lessons he learned in basketball flourished, a vision of his future that
-    first flourished during his final days in college.\n\n“I wasn’t really prepared
-    for college,” he said, “but once I figured it out and got my plan, I realized
-    it was made for me.”\n\n### A new image of success\n\nDonald is most proud of
-    earning a degree from UW despite early struggles in the classroom. Here he felt,
-    at times, like the ultimate underdog.\n\n“There’s a lack of confidence and self-esteem
-    in the classroom,” Donald said. “I feel like I was often in situation as a sportsman
-    and African-American male where that wasn’t an image we saw of ourselves. So I
-    didn’t understand my talents and gifts as it related to academics.”\n\nAll of
-    which helps explain the unique mission of Watts Basketball to spur underdogs to
-    greater success on and off the court. \n\n“We want to get our young people not
-    only about playing college basketball but earning a college degree and setting
-    themselves up through sports to be successful in life.”\n\nDonald has learned
-    to better manage his disease through acupuncture and healthy eating. He’s even
-    known to go back on the court from time to time, as noted in a Seattle Times flashback:
-    [Watts Jr.] participated in the pro-am league tournament and scored 45 points
-    to in a championship-game victory against a team that included Jamal Crawford,
-    Nate Robinson and Will Conroy.\n\n“I still have my game,” Donald said. “I can
-    still play ball, but only once a week.”\n\n### Son leads the way\n\nMost of what
-    Watts loved about the game of basketball is even more rewarding through business,
-    he said, like competition, camaraderie, coaching and touching people’s lives,
-    just as his father has tried to do in Seattle for decades. It’s also where the
-    son has surpassed even the large footsteps of his father.\n\n“A lot of people
-    would say I’m following in my father’s footsteps, but I’d say I’m leading the
-    way. When I played basketball I was very much following his footsteps, but now
-    in business he’s learning from me.”\n\nAs are hundreds of Seattle area underdogs
-    with big dreams of their own."
+    url: //images.contentful.com/efl6n0ctkspd/3Ylyib5fVCSuyWUEksu0Q2/e6f9a7f8a44c3b0ae44b281df222b516/Ericka_Ketchum_trains_2.jpeg
+  contentAboveNewsletterLink: |-
+    *“I love MMA, Ketchum says. “It tests you in all possible aspects: mentally, physically and emotionally. It's addicting, and you are always learning, always bettering yourself … always being humbled.”*
+
+    Ericka Ketchum stands 5’3” with green eyes and long brunette hair down to her small waist. She says her “walk-around weight ranges from 120lbs. to 125. At age 31, she loves the water and often finds herself relaxing near a body of it or plunged deep within with her scuba gear on. In her “street clothes” Ketchum masks from the world her inner desire: to compete as a Mixed Martial Arts (MMA) fighter.
+
+    “I love MMA, Ketchum says. “It tests you in all possible aspects: mentally, physically and emotionally. It's addicting, and you are always learning, always bettering yourself … always being humbled.”
+
+    Growing up in Minnesota, Ketchum enjoyed hunting, fishing and scuba diving. When she was a student at the University of Minnesota majoring in pre-med with a minor in psychology, she developed a life-long love affair with active, healthy living. In her personal quest to be in top physical condition, Ketchum cycled through a number of conditioning routines, including gymnastics, swimming, weight-lifting and kickboxing. She was in the gym four to five times a week when she discovered MMA, just nine months ago, and dove in with a fierce passion. Now, she drives regularly from her town of Coeur d’Alene, Idaho to the Sik Jitsu Fighting Systems gym in Spokane, WA to work with trainer Rick Little, who is preparing Ketchum for her first amateur MMA fight.
+
+    “I heard about an MMA trainer near me, Ketchum said when asked how she got started. “So I went to his gym to check it out. He let me sit in on a pro training session and I was already hooked. He showed me some violent videos of his fighters’ fights. He told me if that didn't scare me away, I am already half way there. I told him I didn’t exactly go there (to his gym) to pet kittens. He laughed and said, ‘that’s good’ and asked what I was looking to accomplish. I said, if I was good enough I would like to compete. He told me I had a good attitude about the whole thing and accepted me into the program.”
+  contentBelowNewsletter: "Today, Ketchum is in a constant training routine. She runs
+    in the morning and does MMA training and a second session of cardio and strength
+    training in the evenings. The exact routine depends on the day. But she’s engaged
+    six days a week, and always conscience of her eating habits, which are directed
+    by her personal trainer and nutritionist, Dan Parrish. Most of her MMA training
+    is primarily with men due to the lack of women in the sport. She expects to do
+    battle at a fighting weight of 115lbs, which places her in the “strawweight” classification
+    of 10 fight weight divisions.\n\n“I hope to have my first fight soon, Ketchum
+    said. “Good matched opponents for women are harder to come by.”\n\n<iframe width=\"640\"
+    height=\"360\" src=\"http://www.espn.com/core/video/iframe?id=18350625&endcard=false\"
+    allowfullscreen frameborder=\"0\"></iframe>\n\nIndeed, MMA is a relatively new
+    sport that’s gaining ground across the country. And, as in most sports initially
+    designed for men, women have a much tougher time breaking down the barriers. With
+    MMA, however, women are welcome and add to the growing popularity of the sport.
+    But they are in limited supply, numbering just over 200 notable fighters to date.\n\nThe
+    most prominent woman in MMA is Ronda Rousey. She was the first American woman
+    to earn an Olympic medal in judo (Bronze), which she won at the 2008 Summer Olympics
+    in Beijing. Rousey is the former UFC Women's Bantamweight Champion, as well as
+    the last Strikeforce Women's Bantamweight Champion. She won 12 consecutive MMA
+    fights, six in the Ultimate Fighting Championship (UFC), before suffering her
+    first loss to Holly Holm in November 2015.\n\nMMA is a full-contact combat sport
+    that allows striking and grappling, both standing and on the ground using a variety
+    of techniques and skills from other combat sports and martial arts. There are
+    three, three minute rounds in amateur fights. Time of rounds in professional battles
+    are 5 minutes, but there can be 3 or 5 rounds per fight. Most battles are 3 rounds,
+    main events are 5 rounds. \n\nMMA fighting is commonly confused with its professional
+    league brand, Ultimate Fighting Championship (UFC). Think of MMA as the sport
+    of football and the UFC as the NFL league in which professional football is played.
+    The UFC has grown significantly over the past decade and was sold in the summer
+    of 2016 to WME-IMG for $4B by its former owners, Lorenzo and Frank Fertitta and
+    their parent company Zuffa, which purchased the league in 2001 for $2M.  \n"
+  category: Sports
+athletesCouncil:
+- sys:
+    id: 5MWe7xeQwgYGUkaQC6ESuG
+  name: Ruthie Bolton
+  title: 2-time Olympic Gold Medalist, WNBA All Star
+  order: 1
+  picture:
+    title: Mighty Ruthie pose 4b
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/5x5msw01WMW2OCki4SywyY/560817badda1b0468c66b8af533559fa/Mighty_Ruthie_pose_4b.jpg
+- sys:
+    id: CyhCzkQL286KKWMsSEwOc
+  name: Carolyn Moos
+  title: Stanford, USA Basketball, FIBA/WNBA
+  order: 2
+  picture:
+    title: Carolyn Moos
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/7d2bcf294c070398b791cc2d837f70a2/quote.jpg
+- sys:
+    id: 7HbyFkP4v6M8yggWcIca4I
+  name: Satch Sanders
+  title: 8-Time NBA champion, NBA Hall of Fame
+  picture:
+    title: Satch Sanders
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3N0FYPra6QeWKmgSoMsG0O/a77aef68c1749dc870065641ed7bceaf/Satch_Sanders.jpg
+- sys:
+    id: 4iQViAce9q6YcogieewmGo
+  name: Artis Gilmore
+  title: NBA Hall of Famer
+  picture:
+    title: Artis Gilmore
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/6PymRKaPwkgMsGmeEqYCkk/06e521fcdb3cff187fd48c1fd7ad5eff/Artis_Gilmore_2.jpg
+- sys:
+    id: 352bFWvxywiYCsW2UY66uO
+  name: Lenny Wilkens
+  title: NBA Hall of Fame
+  order: 0
+  picture:
+    title: Lenny Wilkens
+    description: head shot
+    url: //images.contentful.com/efl6n0ctkspd/78TLdI2qY04uwkA4Sw4yiW/efd61bd69ef98ded0b34c084e71ea936/lenny_wilkens.jpg
+- sys:
+    id: 6aEDmVvqdq4IIEyqy6CsWC
+  name: Donald 'Slick' Watts
+  title: Seattle Supersonics
+  picture:
+    title: slick watts 1
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/1QBYKAvBtWQEqOQWmcK88U/f5031b0c4e2c24b1cd58feac1dfe6ae6/slick_watts_1.jpg
+playbook:
+- sys:
+    id: 1K7D5VCjMgSkew8cYsOYk8
+  title: Fostering Competitiveness
+  isFeatured: true
+  order: 1
+  category: Wealth
+  blurb: 'Competition is the driving determinant of achievement. Our will to compete
+    is the dominant factor in our individual  and collective success as current and
+    former athletes. '
+  image:
+    title: EPM 6847
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/15Q8TKE2VWw4quIUKCOEqg/b6bd6aa8f24c4e9c8e79b2cd05789274/EPM_6847.jpg
+  author: Johnathan Holified
+- sys:
+    id: 7i4lrGoKtioeGukQGWcY2q
+  title: Darrell Thompson
+  isFeatured: false
+  order: 0
+  category: Sports
+  blurb: Winning in practice leads to scoreboard results
+  image:
+    title: Darrell Thompson
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3F7dzUDnp6MMcwWiOuwII8/7bcc000d97e0bf1dae9d9822955c3249/IMG_2588.jpeg
+  author: Darrell Thompson
+- sys:
+    id: tzO0M2T06yGUwIMECiGeG
+  title: Building your dream team
+  isFeatured: false
+  order: 2
+  category: Life
+  blurb: Every athlete needs a supportive team to succeed in sports and life
+  image:
+    title: Brandon Williams
+    description: Brandon Williams
+    url: //images.contentful.com/efl6n0ctkspd/4ERfbO1pCgUoa2A0QGkYOI/71047c3483b8a29d0298720619f6d939/Brandon_Williams.jpg
+  author: Brandon Williams
+quote:
+- sys:
+    id: 38hlvM9Fe0U4IIyI0ym6mQ
+  quoteText: 'Athletes getting together and having respect for each other’s accomplishments
+    on and off the field. That’s a beautiful thing! '
+  author: Satch Sanders
+  authorTitle: 8 Time NBA champion and NBA Hall of Fame
+  picture:
+    title: Satch Sanders
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3N0FYPra6QeWKmgSoMsG0O/a77aef68c1749dc870065641ed7bceaf/Satch_Sanders.jpg
+- sys:
+    id: 2Yu9jAtEHY4SOEKQ2II0Qa
+  quoteText: 'Stay true to yourself, have goals and make sure you have backup goals.
+    Be sure to get your education along the way! '
+  author: Donald "Slick" Watts
+  authorTitle: Seattle Supersonics, Louisiana Hall of Fame
+  picture:
+    title: Slick Watts
+    description: ''
+    url: //images.contentful.com/efl6n0ctkspd/6RxlIV6FPOsK2CKK4SIiGe/f23d6888c43c6ee33b9097047a30feb7/Slick_Watts.jpg
+- sys:
+    id: 673FkjY21aeMqkGKqoOuyM
+  quoteText: I encourage all student-athletes to develop themselves fully in the classroom
+    and in their respective sport. I am appreciative of all the places basketball
+    has taken me on the court and in life.
+  author: Carolyn Moos
+  authorTitle: USA Basketball/Stanford/WNBA
+  picture:
+    title: Carolyn Moos
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/7d2bcf294c070398b791cc2d837f70a2/quote.jpg
+- sys:
+    id: 50xzJkCTqwK0S864cgsUQi
+  quoteText: 'Diversify your thought process and focus on your strongest suit, never
+    give up on your dream of being an athlete, but prepare yourself for life. '
+  author: Artis Gilmore
+  authorTitle: NBA Hall of Fame
+  picture:
+    title: Artis Gilmore
+    description: 
+    url: //images.contentful.com/efl6n0ctkspd/6PymRKaPwkgMsGmeEqYCkk/06e521fcdb3cff187fd48c1fd7ad5eff/Artis_Gilmore_2.jpg
 councilTeamLeaders:
 - sys:
     id: 9gLAEFhOAEi6eS0SmgUio
-  name: Person 1
-  title: Title 1
-  order: 0
-  picture:
-    title: Connor Wedington - Sumner HS
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/RcgpHX2qo6akwIocCgKki/a5d9d7edf40b19ffb83008cf1689f674/Connor_Wedington_-_Sumner_HS.jpg
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad __minim veniam__,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-- sys:
-    id: 7Bwqi4a7968kKeSmgo2I8q
-  name: Person 2
-  title: Title 2
+  name: John Stone
+  title: Chief Information Officer
   order: 1
   picture:
-    title: Justin Foster - Crest HS.jfif
+    title: John Stone
+    description: CIO
+    url: //images.contentful.com/efl6n0ctkspd/3LZ7e5t33WeY24mQyEkE6y/071fcb22be752ac0474746971c4a0a74/John_Stone_headshot.JPG
+  bio: "John Stone\nJohn Stone is the Chief Content Officer for the Athletes Playbook.\n\nOver
+    his 25 year career, John has been a leader in educational reform as well as in
+    sports media and marketing. John’s career in education began in Houston, TX right
+    out of college as a Teach for America corps member.  For four years, John taught
+    middle school social studies in some of Houston’s most challenging schools. His
+    educational career continued after TFA in New York, working as an educational
+    consultant while earning a master’s degree at Columbia Teachers College.\n\nA
+    joint MBA/MS in business and communications led him to leadership positions in
+    marketing and media for the past 15 years.  In 2003, he won an Emmy Award for
+    his work on the HBO documentary, Curse of the Bambino. He has also been a key
+    member of teams launching new programming at ESPN and new networks such as the
+    Fox Business Network in 2007.\n\nJohn brought his diverse skill set to the New
+    England Consulting Group in 2010.  As Director of New Business Development, he
+    led the firm into new sectors like education, entertainment, and sports.\nSince
+    2010, John has also focused his efforts on helping retired athletes transition
+    effectively from “athlete world” to “real world.\"  "
+- sys:
+    id: 1UkHRE52biWMWyEamwY0Iw
+  name: Jaymes Hines
+  title: Chief Technology Officer
+  order: 2
+  picture:
+    title: 'jaymes hines '
     description: 
-    url: //images.contentful.com/efl6n0ctkspd/1rTDRCz6x20uQMumE8OOSA/55f2079d4209d56911de35675eba5543/Justin_Foster_-_Crest_HS.jfif.jpeg
-  bio: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut *labore* et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in __reprehenderit in voluptate__ velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    url: //images.contentful.com/efl6n0ctkspd/2UfAThJNZK08QY86owGiEM/ba5827b836130e0c3669e3bbc57ae056/jaymes_hines_pic.jpg
+  bio: "Jaymes Hines is the Chief Opportunity Officer for the Athletes Playbok. \n\nHe
+    is a Silicon Valley area-based startup executive and advisor for VR/ AR, Sports
+    tech and Edtech startups and producer of hackathons challenge events. \n\nDuring
+    dot-com days, Jaymes established one of the earliest Los Angeles based web design
+    studio, MBA Interactive - Designed and launched online and offline interactive
+    multimedia web experiences for films, sports, museums, HBO, Cannes Market, and
+    advisor for AFI Digital Television Initiative.\n\nJaymes has been involved in
+    the digital world for more than 25 years. A veteran multimedia producer, content
+    creator, community & content strategist, event producer, and social entrepreneur,
+    Jaymes is founder and CEO of Startup Edtech VR, a bi-costal social transmedia
+    company that provides original IP, business model generation, software development,
+    social media consultancy, interactive marketing and distribution services. \n\nToday,
+    as co-founder and advisor, Jaymes assist various publishing and early-stage content
+    companies adapt to the realities of the digital age, which includes direct-to-consumer
+    online video and immersive interactive content across broadband web, social media,
+    downloads, and mobile platforms. Jaymes is heavily focused on help empowering
+    young minds and the hands that guide them."
+- sys:
+    id: 7Bwqi4a7968kKeSmgo2I8q
+  name: James Donaldson
+  title: Chief Executive Officer
+  order: 0
+  picture:
+    title: James Donaldson
+    description: Athletes Playbook, CEO
+    url: //images.contentful.com/efl6n0ctkspd/2ZprXrybvi4AAcG2IgCSQ/b1031cf53dce295c0a1930db7312790c/James_Donaldson_headshot.jpg
+  bio: "James Donaldson is the CEO of the Athletes Playbook, a community of former
+    athletes empowering student athletes to design their playbook for success in sports
+    and life. \n\nJames is a Washington State University graduate (’79). After an
+    outstanding basketball career with WSU, he went on to play professional basketball
+    in the NBA with the Seattle Supersonics, San Diego/L.A. Clippers, Dallas Mavericks,
+    New York Knicks, and Utah Jazz. He also played for several teams in the European
+    Leagues in Spain, Italy, and Greece, and he toured with The Harlem Globetrotters
+    to wrap up his career. \n\nJames was an NBA All-Star in 1988 while playing center
+    for the Dallas Mavericks. In 2006, James was inducted into the Pac-10 Sports Hall
+    of Fame and also the Washington State University Athletic Hall of Fame. In 2010,
+    James was elected as a board member for the NBA Retired Players Association following
+    20 years of a professional playing career.\n\nJames established The Donaldson
+    Clinic in January 1990 (shortly after a career-threatening knee injury) with the
+    idea that he would eventually become a physical therapist. He is a strong advocate
+    for Women & Minority owned businesses and is very involved with various Chambers
+    of Commerce. He understands what it takes to sustain a strong business environment
+    that is conducive to the success of businesses overall. He also serves as a coach
+    for other small business owners.\n\nToday, James devotes the majority of his time
+    to various community activities and to the operations of The Donaldson Clinic.
+    James frequently conducts speaking engagements (motivational, inspirational, educational)
+    for organizations, schools, and youth groups.\n\nwww.StandingAboveTheCrowd.com\nJamesD@StandingAboveTheCrowd.com\n"
 webPagesContent:
 - sys:
     id: 5UYgwMGN0cS0kcEew0SaEm
-  aboutPageYoutubeVideoId: 651UYYxrfh0
+  aboutPageYoutubeVideoId: 3d5oGQFGnHU
   aboutUsHeader: We are a community of former professional athletes empowering student
     athletes and parents design their playbook for success in sports and life.
   aboutUsLink: About Us Header Link
   aboutUsOurMission: |+
     The Athletes Council exists to build, grow and sustain long-term relationships between a global community of student athletes connected to a community of former professional athletes who are dedicated to ensuring the next generation’s success in sports and life.
 
-  aboutUsALetterFromTheCeo: Lorem ipsum dolor sit amet, qui id alia veri fastidii,
-    novum labore molestiae id per, per elit nominati consulatu ad. Recteque dissentiunt
-    eu vel, alterum facilisis at has. Utroque eleifend adipiscing in sed, sonet legendos
-    vel cu, quas dicit concludaturque eam ut. Per ex luptatum adversarium. An eum
-    zril vituperata intellegebat, duo id nibh adipiscing, nostrud appetere conclusionemque
-    ei vis. Ex pro tation ubique ignota. His duis accusamus ei. Cu eos omnes discere
-    noluisse, percipit evertitur constituto eam ut. Est ut zril aliquip reformidans,
-    doctus atomorum ne mei, salutatus dissentiet at sed.Solum tacimates nec at. Eam
-    instructior signiferumque no, in cum adipisci consequuntur. At utamur nonumes
-    mei. Quo vero vivendo instructior in. Quod comprehensam vis te, eos id erat malis
-    moderatius. Te vim eius persequeris, ne vix vidisse eripuit vulputate. Case elaboraret
-    eu mei, vim cu omnis porro. Id natum etiam omittam vix.
+  aboutUsALetterFromTheCeo: |-
+    I am excited to lead a team of extraordinarily talented professionals who are dedicated to showcasing the successes of former professional athletes and student athletes as they experience the journey of pursuing excellence and high achievement in both sports and life.
+
+    When I survey the landscape of former athletes, I am amazed at what they have accomplished, and how athletics has prepared them in unique ways to meet life’s many challenges. Although most student athletes will not play at the professional level in their respective sports, the journey they are on can open doors of opportunity to pursue their life dreams and passions in any industry of interest.
+
+    In the development of Athletes Playbook, I learned that 95% of the Fortune 500 CEOs are former collegiate athletes. That is an astounding testimony of success. It stands as a strong encouragement to student athletes who aspire to play at the professional level that even if they aren’t among the small percentage who make it, they can still be among the extraordinarily high percentage of success stories that emerge from the ranks of the student athletes pursuing their goals in life.
+
+    I am committed to ensuring this platform deepens the trusted relationship between former professional and student athletes. As mentors and role models, former pro athletes have tremendous influence. And Athletes Playbook is a platform wherein they can channel their energy to reach student athletes and make a positive difference in their lives. I am also committed to ensuring former pro athletes connect to channels of economic opportunity and resources needed to successfully pursue their aspirations and goals in life.
+
+    Thank you for playing a role in our effort to grow Athletes Playbook into an important household resource for every student athlete and their family worldwide.
   aboutUsCeoPicture:
-    title: signup male
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
+    title: James Donaldson
+    description: Athletes Playbook, CEO
+    url: //images.contentful.com/efl6n0ctkspd/2ZprXrybvi4AAcG2IgCSQ/b1031cf53dce295c0a1930db7312790c/James_Donaldson_headshot.jpg
   faq: "### What is Athletes Playbook?\nAP is a community of former professional athletes
     empowering student athletes, parents and coaches to design their personal playbooks
     (pathways) for success in sports and life. Our venture competes in the mass media
@@ -598,102 +1212,3 @@ webPagesContent:
     Brad Meyers, AP Director of Business Development: bradm@athletesplaybook.com\n\n\n__Score
     Big with Athletes Playbook!__\nInterested in a great investment opportunity? Inquire
     here: info@athletesplaybook.com\n\n\n\n"
-athletesCouncil:
-- sys:
-    id: 352bFWvxywiYCsW2UY66uO
-  name: Athlete 1
-  title: Athlete
-  order: 0
-  picture:
-    title: signup male
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
-- sys:
-    id: CyhCzkQL286KKWMsSEwOc
-  name: Athlete 3
-  title: Athelete
-  order: 2
-  picture:
-    title: signup male
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
-- sys:
-    id: 5MWe7xeQwgYGUkaQC6ESuG
-  name: Athlete 2
-  title: Athlete
-  order: 1
-  picture:
-    title: signup male
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/tyeYpSsQQScmwKyaMyM40/bd353ff257a04bd8e8995197d70d88bc/signup_male.png
-partnerLogo:
-- sys:
-    id: 2LWpwu6AtOGuGmw2UsOGiE
-  name: Augmenty
-  partnerLogo:
-    title: logo1
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/3wAKQ0zSikyMwQUYI4CmWM/79149b3fe3d43bef9a8569507122daf1/logo1.png
-  order: 1
-- sys:
-    id: 46S7SgiGU0aOyyqas0uqyY
-  name: Rooy
-  partnerLogo:
-    title: logo6
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/O5PLPc5Ca4qw4qsIGwCOy/7bd1afc615f2956cceb63280b91caa2b/logo6.png
-  order: 6
-- sys:
-    id: 3d3XQczvYAoGCAKMG4u0ym
-  name: ProAthlete
-  partnerLogo:
-    title: logo2
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/3DiKvOXY64AQ42UAaqOmQk/6cdeebcfafb538a734d04c0c7452a566/logo2.png
-  order: 2
-- sys:
-    id: 4j1LcR2qzKwIQsGmQkGU0Q
-  name: Fanisko
-  partnerLogo:
-    title: Fanisko
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/mlpWefy4o0gwk60GYKMC2/e0a31bb8d63bc725112ff3bf529e7bff/logo3.png
-  order: 3
-- sys:
-    id: 3o9dNjPKPKSgCAsAaaA66c
-  name: Vicarious
-  partnerLogo:
-    title: logo4
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/6URond4TRu28UOMgseAQ08/b17fadea5da9396d7dc1d4ca9ae1842d/logo4.png
-  order: 4
-- sys:
-    id: 7hofTR75HGUuoeC2WaS4sU
-  name: StoryWorld
-  partnerLogo:
-    title: logo5
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/gmtc5qMrPqYqSGOUWGcYE/a439924c296bd6451b41471191505b7b/logo5.png
-  order: 5
-quote:
-- sys:
-    id: 38hlvM9Fe0U4IIyI0ym6mQ
-  quoteText: 'Athletes getting together and having respect for each other’s accomplishments
-    on and off the field. That’s a beautiful thing! '
-  author: Satch Sanders
-  authorTitle: 8 Time NBA champion and NBA Hall of Fame
-  picture:
-    title: Satch Sanders
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/3N0FYPra6QeWKmgSoMsG0O/1cd7cc5ff12bd46d5356631ceca7b850/Satch_Sanders.jpg
-- sys:
-    id: 673FkjY21aeMqkGKqoOuyM
-  quoteText: I encourage all student-athletes to develop themselves fully in the classroom
-    and in their respective sport. I am appreciative of all the places basketball
-    has taken me on the court and in life.
-  author: Carolyn Moos
-  authorTitle: USA Basketball/Stanford/WNBA
-  picture:
-    title: quote
-    description: 
-    url: //images.contentful.com/efl6n0ctkspd/3HmgGGWI5qoWWOWoUMokOY/c34b59f23f24e554ab69e20c136c1039/quote.jpg
