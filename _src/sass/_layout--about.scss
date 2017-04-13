@@ -18,7 +18,9 @@
 .author-thumb {
 	width: 120px;
 	height: 120px;
-	background-size: contain;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center;
 	@media screen and #{$brk-wide} {
 		margin: 0 auto;
 		float: none !important;
@@ -28,7 +30,7 @@
 	.col-1-4 {
 		margin-bottom: 2em;
 		.each-shot {
-			width: 100%;
+			width: 100%; 
 			height: 140px;
 			background-size: cover;
 			background-repeat: no-repeat;

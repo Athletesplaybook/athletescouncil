@@ -87,8 +87,13 @@
 	}
 }
 
-header .story {
-	h2, h6 {
-		text-shadow: 1px 1px 5px #fff;
+.story {
+	background-position: -250px;
+	position:relative;
+	.slider-overlay {
+		width: 50%;
+	    @media screen and #{$brk-narrow} {
+			width: 100%;
+	    }
 	}
 }

@@ -5,9 +5,11 @@ layout: default
 <header>
     <section class="clearfix full-img aligner story" style="background-image: url('{{page.contentful_fields.heroImage.file.url}}');">
         <div class="grid">
-        <div class="col-1-2 center center-text">
-            <h2>{{page.contentful_fields.title}}</h2>
-            <h6>{{page.contentful_fields.subtitle}}</h6>
+         <div class="slider-overlay">
+            <div class="overlay-content">
+                <h2>{{page.contentful_fields.title}}</h2>
+                <h6>{{page.contentful_fields.subtitle}}</h6>
+            </div>
         </div>
     </section>
 </header>
