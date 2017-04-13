@@ -1144,7 +1144,7 @@ footer {
       margin: 10px; } }
 
 .story {
-  background-position: -250px;
+  background-position: -250px 0;
   position: relative; }
   .story .slider-overlay {
     width: 50%; }
